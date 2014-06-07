@@ -1,4 +1,4 @@
-Log file open, 06/05/14 21:28:33
+Log file open, 06/07/14 16:05:23
 LogInit:Display: Running engine for game: DigitalJamSession
 LogInit: Version: 4.2.0-2092659+++depot+UE4-Releases+4.2
 LogInit: Compiled (64-bit): Jun  3 2014 00:56:21
@@ -7,510 +7,964 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.2
 LogInit: Command line: 
 LogInit: Base directory: C:/Program Files/Unreal Engine/4.2/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.06.05-11.28.33:122][  0]LogTaskGraph: Started task graph with 3 named threads and 8 total threads.
-[2014.06.05-11.28.33:198][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.06.05-11.28.33:214][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.06.05-11.28.33:223][  0]LogInit: Object subsystem initialized
-[2014.06.05-11.28.33:226][  0]LogInit: Selected Device Profile: [Windows]
-[2014.06.05-11.28.33:226][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.06.05-11.28.33:234][  0]LogInit: Computer: TAKAMATSU-PC
-[2014.06.05-11.28.33:234][  0]LogInit: User: takamatsu
-[2014.06.05-11.28.33:235][  0]LogInit: CPU Page size=4096, Cores=8
-[2014.06.05-11.28.33:235][  0]LogInit: High frequency timer resolution =3.527529 MHz
-[2014.06.05-11.28.33:235][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx) Virtual=8192.0GB
-[2014.06.05-11.28.33:235][  0]LogMemory: Platform Memory Stats for Windows
-[2014.06.05-11.28.33:235][  0]LogMemory: Process Physical Memory: 53.20 MB used, 53.20 MB peak
-[2014.06.05-11.28.33:235][  0]LogMemory: Process Virtual Memory: 29.79 MB used, 31.32 MB peak
-[2014.06.05-11.28.33:235][  0]LogMemory: Physical Memory: 5285.44 MB used, 32695.07 MB total
-[2014.06.05-11.28.33:235][  0]LogMemory: Virtual Memory: 235.10 MB used, 8388608.00 MB total
-[2014.06.05-11.28.33:296][  0]LogD3D11RHI: Found D3D11 adapter 0: ASUS HD7970 Series (Feature Level 11_0)
-[2014.06.05-11.28.33:296][  0]LogD3D11RHI: Adapter has 3023MB of dedicated video memory, 0MB of dedicated system memory, and 16091MB of shared system memory, 2 output[s]
-[2014.06.05-11.28.33:296][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.06.05-11.28.33:307][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2014.06.05-11.28.33:341][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2014.06.05-11.28.33:466][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.06.05-11.28.34:607][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.06.05-11.28.34:835][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.06.05-11.28.34:907][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.06.05-11.28.34:973][  0]LogDerivedDataCache: Loaded boot cache 0.07s 39MB C:/Users/takamatsu/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
-[2014.06.05-11.28.34:973][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/takamatsu/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
-[2014.06.05-11.28.34:973][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.06.05-11.28.34:973][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.06.05-11.28.34:984][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.06.05-11.28.34:996][  0]LogDerivedDataCache: Using Local data cache path C:/Users/takamatsu/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
-[2014.06.05-11.28.35:288][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.06.05-11.28.35:288][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.06.05-11.28.35:776][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.06.05-11.28.36:323][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
-[2014.06.05-11.28.36:323][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
-[2014.06.05-11.28.36:329][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
-[2014.06.05-11.28.36:329][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
-[2014.06.05-11.28.36:725][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.06.05-11.28.36:839][  0]SourceControl: Info Source control is disabled
-[2014.06.05-11.28.36:839][  0]SourceControl: Info Source control is disabled
-[2014.06.05-11.28.36:853][  0]SourceControl: Info Source control is disabled
-[2014.06.05-11.28.36:992][  0]BlueprintLog: New page: Editor Load
-[2014.06.05-11.28.37:058][  0]LogObj: 19136 objects as part of root set at end of initial load.
-[2014.06.05-11.28.37:058][  0]LogUObjectAllocator: 3804648 out of 0 bytes used by permanent object pool.
-[2014.06.05-11.28.37:504][  0]LogEngine: Initializing Engine...
-[2014.06.05-11.28.37:664][  0]LogInit: XAudio2 using 'Speakers (SB Recon3D PCIe)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2014.06.05-11.28.37:711][  0]LogInit: FAudioDevice initialized.
-[2014.06.05-11.28.37:748][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/takamatsu/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
-[2014.06.05-11.28.37:756][  0]LogInit: Texture streaming: Enabled
-[2014.06.05-11.28.37:814][  0]LogInit: Transaction tracking system initialized
-[2014.06.05-11.28.38:030][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
-[2014.06.05-11.28.38:392][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
-[2014.06.05-11.28.38:407][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
-[2014.06.05-11.28.38:565][  0]LogConsoleResponse:Display: 
-[2014.06.05-11.28.38:964][  0]SourceControl: Info Source control is disabled
-[2014.06.05-11.28.38:965][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 WORLDCOMPOSITION=0
-[2014.06.05-11.28.38:965][  0]LightingResults: New page: Lighting Build
-[2014.06.05-11.28.38:981][  0]MapCheck: New page: Map Check
-[2014.06.05-11.28.38:981][  0]LightingResults: New page: Lighting Build
-[2014.06.05-11.28.38:989][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014129580
-[2014.06.05-11.28.39:183][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.06.05-11.28.39:183][  0]Cmd: MAP CHECKDEP
-[2014.06.05-11.28.39:183][  0]MapCheck: New page: Untitled_1 - 06/06/2014 7:28:39 am
-[2014.06.05-11.28.39:266][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [82.99ms] ==========
-[2014.06.05-11.28.39:266][  0]LogFileHelpers: Loading map 'Template_Default' took 0.302
-[2014.06.05-11.28.39:445][  0]LogCollectionManager: Loaded 0 collections in 0.001162 seconds
-[2014.06.05-11.28.39:607][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.06.05-11.28.39:608][  0]Cmd: MODE PLACEMENT
-[2014.06.05-11.28.39:642][  0]LogLoad: Full Startup: 7.79 seconds (BP compile: 0.07 seconds)
-[2014.06.05-11.28.39:777][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x896.
-[2014.06.05-11.28.40:113][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>5DC3C27C230147E5</RequestId><HostId>It9pMS6t22pfVwxaWeDGjvQMOTbct6Ki+PWRtNL6Ky4RTLQtuVIT/f75K2ZD/Xzk</HostId></Error>
-[2014.06.05-11.28.40:122][  1]LogAssetRegistry: Asset discovery search completed in 2.1022 seconds
-[2014.06.05-11.28.40:146][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>EB2203C33BC1C70D</RequestId><HostId>XY/k/c8HUJLOtWJsBWeEVVdcrv2f34N0QOKzy39wCdDZBaaCGGyYsCWsePvni0ns</HostId></Error>
-[2014.06.05-11.28.40:166][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>9A79DC17AB5BB24D</RequestId><HostId>PWdbtsfEdppEJjxeDBDOt+4Y4kOU3mhdj7uO9apFceIN0VJOgkZSAMes7yGrBvtY</HostId></Error>
-[2014.06.05-11.28.40:205][  6]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>118130EEA55DE930</RequestId><HostId>cx51ypB/sW4H3OSjG0VKoolPQjqGKWoAs+BIprg4zpZHbw+QhafgjcLHkDq9aI7F</HostId></Error>
-[2014.06.05-11.28.40:240][  9]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>36BAA2F7908A643F</RequestId><HostId>JWWUjyG7UF3XXmz8wmnPkvgejFPAVqoJ/MjqD9H2IPyG2QWgdlSl6dD46V1Jn4E+</HostId></Error>
-[2014.06.05-11.28.40:268][ 12]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.05-11.28.49:070][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
-[2014.06.05-11.29.06:778][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
-[2014.06.05-11.29.31:751][192]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
-[2014.06.05-11.29.32:359][251]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Template_Map_Floor)
-[2014.06.05-11.29.32:830][294]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
-[2014.06.05-11.29.56:955][190]LogSavePackage: Save=35.715370ms
-[2014.06.05-11.29.56:955][190]LogSavePackage: Moving '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Saved/Jam69B4CAE34EC45C78B44997A5B6EE8F47.tmp' to '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Jam.umap'
-[2014.06.05-11.29.56:976][190]LogFileHelpers: Saving map 'Jam' took 0.249
-[2014.06.05-11.30.25:309][275]LogSavePackage: Save=28.781904ms
-[2014.06.05-11.30.25:309][275]LogSavePackage: Moving '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Saved/JamDB9CC91849ED1A108B363A9132ECB37F.tmp' to '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Jam.umap'
-[2014.06.05-11.30.41:635][723]LogRenderer:Warning: Reallocating scene render targets to support 1136x936.
-[2014.06.05-11.33.09:102][ 48]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Materials/CommentaryBox'
-[2014.06.05-11.33.13:163][409]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Materials'
-[2014.06.05-11.33.13:823][471]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Character'
-[2014.06.05-11.33.19:865][982]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Materials/CommentaryBox'
-[2014.06.05-11.33.28:610][780]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
-[2014.06.05-11.33.28:610][780]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveUp' for  InputAxis MoveUp 
-[2014.06.05-11.33.28:610][780]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Ghost' for  InputAction Ghost 
-[2014.06.05-11.33.28:611][780]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Fly' for  InputAction Fly 
-[2014.06.05-11.33.28:611][780]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Exit' for  InputAction Exit 
-[2014.06.05-11.33.28:611][780]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
-[2014.06.05-11.33.28:611][780]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
-[2014.06.05-11.33.28:612][780]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
-[2014.06.05-11.33.28:612][780]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2014.06.05-11.33.28:612][780]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
-[2014.06.05-11.33.28:613][780]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
-[2014.06.05-11.33.28:626][780]LogBlueprint:Warning: [compiler] Warning [0296.77] Compile of CharacterBP successful, but with 11 Warning(s) [in 21 ms]
-[2014.06.05-11.33.28:650][780]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
-[2014.06.05-11.33.28:650][780]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveUp' for  InputAxis MoveUp 
-[2014.06.05-11.33.28:651][780]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Ghost' for  InputAction Ghost 
-[2014.06.05-11.33.28:651][780]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Fly' for  InputAction Fly 
-[2014.06.05-11.33.28:651][780]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Exit' for  InputAction Exit 
-[2014.06.05-11.33.28:651][780]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
-[2014.06.05-11.33.28:652][780]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
-[2014.06.05-11.33.28:652][780]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
-[2014.06.05-11.33.28:652][780]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2014.06.05-11.33.28:653][780]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
-[2014.06.05-11.33.28:653][780]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
-[2014.06.05-11.33.28:666][780]LogBlueprint:Warning: [compiler] Warning [0296.81] Compile of CharacterBP successful, but with 11 Warning(s) [in 21 ms]
-[2014.06.05-11.33.29:217][780]LogSavePackage: Save=346.989075ms
-[2014.06.05-11.33.29:217][780]LogSavePackage: Moving '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Saved/M_TextMaterial_Opaque_Emissive4DD9D85246A0413678090AA6DDA82323.tmp' to '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Assets/Character/M_TextMaterial_Opaque_Emissive.uasset'
-[2014.06.05-11.33.29:953][780]LogSavePackage: Save=409.832764ms
-[2014.06.05-11.33.29:953][780]LogSavePackage: Moving '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Saved/CharacterBP1EE028F94A489DA84A62A388CB725A88.tmp' to '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Assets/Character/CharacterBP.uasset'
-[2014.06.05-11.33.31:794][945]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Materials'
-[2014.06.05-11.33.32:736][ 32]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Character'
-[2014.06.05-11.33.33:598][ 73]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Materials'
-[2014.06.05-11.33.36:942][429]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.06.05-11.33.45:462][140]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.05-11.33.45:462][140]PIE: New page: PIE session: Jam (06/06/2014 7:33:45 am)
-[2014.06.05-11.33.45:464][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001969s)
-[2014.06.05-11.33.45:465][140]LogPlayLevel: PIE: World Init took: (0.000908s)
-[2014.06.05-11.33.45:465][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Jam.Jam to /Game/UEDPIE_0_Jam.Jam (0.003063s)
-[2014.06.05-11.33.45:465][140]LogWorld: Game class is 'GameMode'
-[2014.06.05-11.33.45:508][140]LogWorld: Bringing World /Game/UEDPIE_0_Jam.Jam up for play (max tick rate 0) at 2014.06.05-21.33.45
-[2014.06.05-11.33.45:508][140]LogWorld: Bringing up level for play took: 0.001256
-[2014.06.05-11.33.45:508][140]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
-[2014.06.05-11.33.45:509][140]LogGameMode: RestartPlayer 256
-[2014.06.05-11.33.45:509][140]LogPlayerController: ClientRestart_Implementation DefaultPawn_0
-[2014.06.05-11.33.45:509][140]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_0
-[2014.06.05-11.33.45:512][140]PIE: Info Play in editor start time for /Game/UEDPIE_0_Jam -0.646
-[2014.06.05-11.33.45:580][141]LogRenderer:Warning: Reallocating scene render targets to support 1136x944.
-[2014.06.05-11.33.53:912][131]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2014.06.05-11.33.53:923][131]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E23F920
-[2014.06.05-11.33.57:754][431]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Character'
-[2014.06.05-11.34.15:110][724]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2014.06.05-11.34.15:121][724]LogMetaData: Removing '/Game/Assets/Character/GameMode.GameMode_C' ref from Metadata '/Game/Assets/Character/SiteDetailsGameMode.PackageMetaData'
-[2014.06.05-11.34.15:121][724]LogMetaData: Removing '/Game/Assets/Character/GameMode.SKEL_GameMode_C' ref from Metadata '/Game/Assets/Character/SiteDetailsGameMode.PackageMetaData'
-[2014.06.05-11.34.15:200][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Character/GameMode" FILE="../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Assets/Character/GameMode.uasset" SILENT=true
-[2014.06.05-11.34.15:215][724]LogSavePackage: Save=12.147596ms
-[2014.06.05-11.34.15:215][724]LogSavePackage: Moving '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Saved/GameModeDC73A03D492DE008C4CEF8B3C803134E.tmp' to '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Assets/Character/GameMode.uasset'
-[2014.06.05-11.34.43:898][ 76]BlueprintLog: New page: Compile GameMode
-[2014.06.05-11.34.43:941][ 76]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
-[2014.06.05-11.34.44:202][ 76]BlueprintEditorCompileResults: Info [0372.04] Compile of GameMode successful! [in 0 ms]
-[2014.06.05-11.34.44:767][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Character/GameMode" FILE="../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Assets/Character/GameMode.uasset" SILENT=true
-[2014.06.05-11.34.44:789][120]LogSavePackage: Save=15.441971ms
-[2014.06.05-11.34.44:789][120]LogSavePackage: Moving '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Saved/GameMode1E010C4E43CD31EE308F77A84F852A30.tmp' to '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Assets/Character/GameMode.uasset'
-[2014.06.05-11.34.49:150][511]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.05-11.34.49:150][511]PIE: New page: PIE session: Jam (06/06/2014 7:34:49 am)
-[2014.06.05-11.34.49:152][511]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001888s)
-[2014.06.05-11.34.49:153][511]LogPlayLevel: PIE: World Init took: (0.001089s)
-[2014.06.05-11.34.49:153][511]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Jam.Jam to /Game/UEDPIE_0_Jam.Jam (0.003255s)
-[2014.06.05-11.34.49:154][511]LogWorld: Game class is 'GameMode'
-[2014.06.05-11.34.49:185][511]LogWorld: Bringing World /Game/UEDPIE_0_Jam.Jam up for play (max tick rate 0) at 2014.06.05-21.34.49
-[2014.06.05-11.34.49:185][511]LogWorld: Bringing up level for play took: 0.001187
-[2014.06.05-11.34.49:185][511]LogPlayerController: Spawned spectator SpectatorPawn_1 [server:1]
-[2014.06.05-11.34.49:186][511]LogGameMode: RestartPlayer 257
-[2014.06.05-11.34.49:186][511]LogPlayerController: ClientRestart_Implementation DefaultPawn_1
-[2014.06.05-11.34.49:186][511]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_1
-[2014.06.05-11.34.49:189][511]PIE: Info Play in editor start time for /Game/UEDPIE_0_Jam 1.031
-[2014.06.05-11.34.53:180][977]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021D39B20
-[2014.06.05-11.34.53:200][978]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000041565C0
-[2014.06.05-11.35.12:124][273]BlueprintLog: New page: Compile CharacterBP
-[2014.06.05-11.35.12:148][273]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
-[2014.06.05-11.35.12:148][273]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveUp' for  InputAxis MoveUp 
-[2014.06.05-11.35.12:148][273]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Ghost' for  InputAction Ghost 
-[2014.06.05-11.35.12:148][273]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Fly' for  InputAction Fly 
-[2014.06.05-11.35.12:149][273]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Exit' for  InputAction Exit 
-[2014.06.05-11.35.12:149][273]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
-[2014.06.05-11.35.12:149][273]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
-[2014.06.05-11.35.12:150][273]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
-[2014.06.05-11.35.12:150][273]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2014.06.05-11.35.12:150][273]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
-[2014.06.05-11.35.12:151][273]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
-[2014.06.05-11.35.12:191][273]LogBlueprint:Warning: [compiler] Warning [0400.33] Compile of CharacterBP successful, but with 11 Warning(s) [in 48 ms]
-[2014.06.05-11.35.12:235][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
-[2014.06.05-11.35.12:535][273]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
-[2014.06.05-11.35.12:535][273]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveUp' for  InputAxis MoveUp 
-[2014.06.05-11.35.12:535][273]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Ghost' for  InputAction Ghost 
-[2014.06.05-11.35.12:535][273]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Fly' for  InputAction Fly 
-[2014.06.05-11.35.12:535][273]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Exit' for  InputAction Exit 
-[2014.06.05-11.35.12:535][273]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
-[2014.06.05-11.35.12:535][273]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
-[2014.06.05-11.35.12:536][273]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
-[2014.06.05-11.35.12:536][273]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2014.06.05-11.35.12:536][273]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
-[2014.06.05-11.35.12:536][273]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
-[2014.06.05-11.35.12:536][273]BlueprintEditorCompileResults:Warning: Warning [0400.33] Compile of CharacterBP successful, but with 11 Warning(s) [in 48 ms]
-[2014.06.05-11.40.37:782][439]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
-[2014.06.05-11.40.37:796][439]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Jam' took 0.014
-[2014.06.05-11.40.37:828][439]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Character/CharacterBP] ([1] browsable assets)...
-[2014.06.05-11.40.37:889][439]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Character/CharacterBP.CharacterBP]
-[2014.06.05-11.40.37:889][439]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Character/CharacterBP]
-[2014.06.05-11.40.38:387][439]LogSavePackage: Save=417.082611ms
-[2014.06.05-11.40.38:387][439]LogSavePackage: Moving '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Saved/CharacterBP_Auto19902B9D04500B463E0B0D2BDFA011E9D.tmp' to '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Saved/Autosaves/Game/Assets/Character/CharacterBP_Auto1.uasset'
-[2014.06.05-11.40.38:394][439]LogFileHelpers: Auto-saving content packages took 0.598
-[2014.06.05-11.42.48:133][ 72]BlueprintLog: New page: Compile CharacterBP
-[2014.06.05-11.42.48:244][ 72]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
-[2014.06.05-11.42.48:548][ 72]BlueprintEditorCompileResults: Info [0856.34] Compile of CharacterBP successful! [in 51 ms]
-[2014.06.05-11.42.53:416][335]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.05-11.42.53:416][335]PIE: New page: PIE session: Jam (06/06/2014 7:42:53 am)
-[2014.06.05-11.42.53:418][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002134s)
-[2014.06.05-11.42.53:419][335]LogPlayLevel: PIE: World Init took: (0.000732s)
-[2014.06.05-11.42.53:419][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Jam.Jam to /Game/UEDPIE_0_Jam.Jam (0.003035s)
-[2014.06.05-11.42.53:419][335]LogWorld: Game class is 'GameMode'
-[2014.06.05-11.42.53:446][335]LogWorld: Bringing World /Game/UEDPIE_0_Jam.Jam up for play (max tick rate 0) at 2014.06.05-21.42.53
-[2014.06.05-11.42.53:446][335]LogWorld: Bringing up level for play took: 0.001192
-[2014.06.05-11.42.53:447][335]LogPlayerController: Spawned spectator SpectatorPawn_2 [server:1]
-[2014.06.05-11.42.53:447][335]LogGameMode: RestartPlayer 258
-[2014.06.05-11.42.53:447][335]LogPlayerController: ClientRestart_Implementation DefaultPawn_2
-[2014.06.05-11.42.53:447][335]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_2
-[2014.06.05-11.42.53:450][335]PIE: Info Play in editor start time for /Game/UEDPIE_0_Jam -0.709
-[2014.06.05-11.42.53:451][335]LogInput:Error: Duplicate mapping of key None for axis MoveForward
-[2014.06.05-11.42.58:243][896]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
-[2014.06.05-11.42.58:256][896]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FC49E40
-[2014.06.05-11.42.58:257][896]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022934860
-[2014.06.05-11.43.04:820][276]LogSavePackage: Save=422.723938ms
-[2014.06.05-11.43.04:820][276]LogSavePackage: Moving '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Saved/CharacterBP4654C8EE4DD83BB40DD8CBB281F633E0.tmp' to '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Assets/Character/CharacterBP.uasset'
-[2014.06.05-11.43.06:364][373]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.05-11.43.06:364][373]PIE: New page: PIE session: Jam (06/06/2014 7:43:06 am)
-[2014.06.05-11.43.06:366][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001864s)
-[2014.06.05-11.43.06:367][373]LogPlayLevel: PIE: World Init took: (0.000747s)
-[2014.06.05-11.43.06:367][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Jam.Jam to /Game/UEDPIE_0_Jam.Jam (0.002761s)
-[2014.06.05-11.43.06:367][373]LogWorld: Game class is 'GameMode'
-[2014.06.05-11.43.06:397][373]LogWorld: Bringing World /Game/UEDPIE_0_Jam.Jam up for play (max tick rate 0) at 2014.06.05-21.43.06
-[2014.06.05-11.43.06:397][373]LogWorld: Bringing up level for play took: 0.001209
-[2014.06.05-11.43.06:398][373]LogPlayerController: Spawned spectator SpectatorPawn_3 [server:1]
-[2014.06.05-11.43.06:398][373]LogGameMode: RestartPlayer 259
-[2014.06.05-11.43.06:398][373]LogPlayerController: ClientRestart_Implementation DefaultPawn_3
-[2014.06.05-11.43.06:398][373]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_3
-[2014.06.05-11.43.06:401][373]PIE: Info Play in editor start time for /Game/UEDPIE_0_Jam 0.242
-[2014.06.05-11.43.06:402][373]LogInput:Error: Duplicate mapping of key None for axis MoveForward
-[2014.06.05-11.43.08:968][669]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
-[2014.06.05-11.43.08:980][669]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000227CC900
-[2014.06.05-11.43.11:935][824]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Character/Animations'
-[2014.06.05-11.43.14:556][ 37]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Character'
-[2014.06.05-11.43.39:802][396]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.06.05-11.43.52:202][159]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.05-11.43.52:202][159]PIE: New page: PIE session: Jam (06/06/2014 7:43:52 am)
-[2014.06.05-11.43.52:204][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002180s)
-[2014.06.05-11.43.52:205][159]LogPlayLevel: PIE: World Init took: (0.000675s)
-[2014.06.05-11.43.52:205][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Jam.Jam to /Game/UEDPIE_0_Jam.Jam (0.003003s)
-[2014.06.05-11.43.52:205][159]LogWorld: Game class is 'GameMode'
-[2014.06.05-11.43.52:235][159]LogWorld: Bringing World /Game/UEDPIE_0_Jam.Jam up for play (max tick rate 0) at 2014.06.05-21.43.52
-[2014.06.05-11.43.52:235][159]LogWorld: Bringing up level for play took: 0.001050
-[2014.06.05-11.43.52:236][159]LogPlayerController: Spawned spectator SpectatorPawn_4 [server:1]
-[2014.06.05-11.43.52:236][159]LogGameMode: RestartPlayer 260
-[2014.06.05-11.43.52:236][159]LogPlayerController: ClientRestart_Implementation DefaultPawn_4
-[2014.06.05-11.43.52:236][159]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_4
-[2014.06.05-11.43.52:239][159]PIE: Info Play in editor start time for /Game/UEDPIE_0_Jam 0.08
-[2014.06.05-11.43.52:239][159]LogInput:Error: Duplicate mapping of key None for axis MoveForward
-[2014.06.05-11.43.53:144][257]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
-[2014.06.05-11.43.53:158][257]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FC49D00
-[2014.06.05-11.43.53:158][257]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B956700
-[2014.06.05-11.44.27:814][231]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2014.06.05-11.44.31:546][410]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2014.06.05-11.44.32:450][455]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2014.06.05-11.44.33:220][486]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2014.06.05-11.45.14:181][609]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2014.06.05-11.45.20:864][175]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.05-11.45.20:864][175]PIE: New page: PIE session: Jam (06/06/2014 7:45:20 am)
-[2014.06.05-11.45.20:867][175]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002505s)
-[2014.06.05-11.45.20:868][175]LogPlayLevel: PIE: World Init took: (0.000777s)
-[2014.06.05-11.45.20:868][175]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Jam.Jam to /Game/UEDPIE_0_Jam.Jam (0.003507s)
-[2014.06.05-11.45.20:868][175]LogWorld: Game class is 'GameMode'
-[2014.06.05-11.45.20:897][175]LogWorld: Bringing World /Game/UEDPIE_0_Jam.Jam up for play (max tick rate 0) at 2014.06.05-21.45.20
-[2014.06.05-11.45.20:897][175]LogWorld: Bringing up level for play took: 0.001277
-[2014.06.05-11.45.20:898][175]LogPlayerController: Spawned spectator SpectatorPawn_5 [server:1]
-[2014.06.05-11.45.20:898][175]LogGameMode: RestartPlayer 261
-[2014.06.05-11.45.20:898][175]LogPlayerController: ClientRestart_Implementation DefaultPawn_5
-[2014.06.05-11.45.20:898][175]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_5
-[2014.06.05-11.45.20:901][175]PIE: Info Play in editor start time for /Game/UEDPIE_0_Jam 0.741
-[2014.06.05-11.45.20:902][175]LogInput:Error: Duplicate mapping of key None for axis MoveForward
-[2014.06.05-11.45.24:212][561]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
-[2014.06.05-11.45.24:226][561]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024FC8720
-[2014.06.05-11.45.24:246][562]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CF98720
-[2014.06.05-11.45.36:278][443]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
-[2014.06.05-11.45.36:290][443]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025194B80
-[2014.06.05-11.45.36:292][443]LogMetaData: Removing '/Game/Assets/Character/JamGameMode.JamGameMode_C' ref from Metadata '/Game/Assets/Character/GameMode.PackageMetaData'
-[2014.06.05-11.45.36:292][443]LogMetaData: Removing '/Game/Assets/Character/JamGameMode.SKEL_JamGameMode_C' ref from Metadata '/Game/Assets/Character/GameMode.PackageMetaData'
-[2014.06.05-11.45.36:382][443]LogSavePackage: Save=13.121650ms
-[2014.06.05-11.45.36:382][443]LogSavePackage: Moving '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Saved/JamGameMode6C6AF5E14D14C4F5801F2E9B92B860A0.tmp' to '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Assets/Character/JamGameMode.uasset'
-[2014.06.05-11.45.46:631][223]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2014.06.05-11.45.55:226][966]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.05-11.45.55:226][966]PIE: New page: PIE session: Jam (06/06/2014 7:45:55 am)
-[2014.06.05-11.45.55:229][966]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002263s)
-[2014.06.05-11.45.55:229][966]LogPlayLevel: PIE: World Init took: (0.000749s)
-[2014.06.05-11.45.55:230][966]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Jam.Jam to /Game/UEDPIE_0_Jam.Jam (0.003174s)
-[2014.06.05-11.45.55:244][966]LogWorld: Game class is 'JamGameMode_C'
-[2014.06.05-11.45.55:271][966]LogWorld: Bringing World /Game/UEDPIE_0_Jam.Jam up for play (max tick rate 0) at 2014.06.05-21.45.55
-[2014.06.05-11.45.55:271][966]LogWorld: Bringing up level for play took: 0.001087
-[2014.06.05-11.45.55:271][966]LogPlayerController: Spawned spectator SpectatorPawn_6 [server:1]
-[2014.06.05-11.45.55:272][966]LogGameMode: RestartPlayer 262
-[2014.06.05-11.45.55:273][966]LogPlayerController: ClientRestart_Implementation CharacterBP_C_0
-[2014.06.05-11.45.55:273][966]LogPlayerController: ServerAcknowledgePossession_Implementation CharacterBP_C_0
-[2014.06.05-11.45.55:277][966]PIE: Info Play in editor start time for /Game/UEDPIE_0_Jam -0.883
-[2014.06.05-11.45.55:277][966]LogInput:Error: Duplicate mapping of key None for axis MoveForward
-[2014.06.05-11.45.58:110][286]LogBlueprintUserMessages: Un-named character can walk through walls...
-[2014.06.05-11.45.58:717][355]LogBlueprintUserMessages: Un-named character  has stopped walking through walls
-[2014.06.05-11.46.00:127][514]LogBlueprintUserMessages: Un-named character can now fly !
-[2014.06.05-11.46.06:642][266]LogBlueprintUserMessages: Un-named character  has stopped flying!
-[2014.06.05-11.46.09:146][560]LogBlueprintUserMessages: Un-named character can walk through walls...
-[2014.06.05-11.46.10:416][712]LogBlueprintUserMessages: Un-named character  has stopped walking through walls
-[2014.06.05-11.46.14:237][163]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
-[2014.06.05-11.46.14:249][163]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CF98AE0
-[2014.06.05-11.46.29:763][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
-[2014.06.05-11.46.37:741][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
-[2014.06.05-11.46.39:046][352]LogSavePackage: Save=30.725191ms
-[2014.06.05-11.46.39:046][352]LogSavePackage: Moving '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Saved/JamF8549ABB428953A2B6BF1EBF0571186D.tmp' to '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Jam.umap'
-[2014.06.05-11.46.40:140][453]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.06.05-11.46.40:140][453]PIE: New page: PIE session: Jam (06/06/2014 7:46:40 am)
-[2014.06.05-11.46.40:143][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002068s)
-[2014.06.05-11.46.40:143][453]LogPlayLevel: PIE: World Init took: (0.000651s)
-[2014.06.05-11.46.40:143][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Jam.Jam to /Game/UEDPIE_0_Jam.Jam (0.002884s)
-[2014.06.05-11.46.40:144][453]LogWorld: Game class is 'JamGameMode_C'
-[2014.06.05-11.46.40:172][453]LogWorld: Bringing World /Game/UEDPIE_0_Jam.Jam up for play (max tick rate 0) at 2014.06.05-21.46.40
-[2014.06.05-11.46.40:172][453]LogWorld: Bringing up level for play took: 0.001238
-[2014.06.05-11.46.40:173][453]LogPlayerController: Spawned spectator SpectatorPawn_7 [server:1]
-[2014.06.05-11.46.40:173][453]LogGameMode: RestartPlayer 263
-[2014.06.05-11.46.40:174][453]LogPlayerController: ClientRestart_Implementation CharacterBP_C_1
-[2014.06.05-11.46.40:174][453]LogPlayerController: ServerAcknowledgePossession_Implementation CharacterBP_C_1
-[2014.06.05-11.46.40:178][453]PIE: Info Play in editor start time for /Game/UEDPIE_0_Jam 0.018
-[2014.06.05-11.46.40:178][453]LogInput:Error: Duplicate mapping of key None for axis MoveForward
-[2014.06.05-11.46.43:047][791]LogBlueprintUserMessages: Un-named character can walk through walls...
-[2014.06.05-11.46.44:893][ 12]LogBlueprintUserMessages: Un-named character  has stopped walking through walls
-[2014.06.05-11.46.45:844][126]LogBlueprintUserMessages: Un-named character can now fly !
-[2014.06.05-11.46.48:862][476]LogBlueprintUserMessages: Un-named character can walk through walls...
-[2014.06.05-11.46.50:030][616]LogBlueprintUserMessages: Un-named character  has stopped flying!
-[2014.06.05-11.46.52:285][886]LogBlueprintUserMessages: Un-named character  has stopped walking through walls
-[2014.06.05-11.46.54:884][184]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E883EC0
-[2014.06.05-11.47.14:408][847]LogSavePackage: Save=28.979492ms
-[2014.06.05-11.47.14:408][847]LogSavePackage: Moving '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Saved/Jam9A44B2AA46F01C652BE81197A4E9B24D.tmp' to '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Jam.umap'
-[2014.06.05-11.47.26:870][881]Cmd: QUIT_EDITOR
-[2014.06.05-11.47.26:941][881]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
-[2014.06.05-11.47.26:943][881]LogExit: Preparing to exit.
-[2014.06.05-11.47.27:856][881]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.05-11.47.27:856][881]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.05-11.47.27:856][881]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.05-11.47.27:856][881]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.05-11.47.27:856][881]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.05-11.47.27:856][881]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2014.06.05-11.47.27:872][881]LogExit: Editor shut down
-[2014.06.05-11.47.27:873][881]LogExit: Transaction tracking system shut down
-[2014.06.05-11.47.27:874][881]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CEE34C0
-[2014.06.05-11.47.27:875][881]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E8822A0
-[2014.06.05-11.47.27:875][881]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012B95C60
-[2014.06.05-11.47.27:875][881]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012B96A20
-[2014.06.05-11.47.27:906][881]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000229F14E0
-[2014.06.05-11.47.27:906][881]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000229F1760
-[2014.06.05-11.47.27:906][881]LogExit: Object subsystem successfully closed.
-[2014.06.05-11.47.27:985][881]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (165)
-[2014.06.05-11.47.27:985][881]LogModuleManager: Shutting down and abandoning module DesktopPlatform (164)
-[2014.06.05-11.47.27:985][881]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
-[2014.06.05-11.47.27:985][881]LogModuleManager: Shutting down and abandoning module CrashTracker (162)
-[2014.06.05-11.47.27:985][881]LogModuleManager: Shutting down and abandoning module HTTP (161)
-[2014.06.05-11.47.27:985][881]LogModuleManager: Shutting down and abandoning module NewsFeed (160)
-[2014.06.05-11.47.27:985][881]LogModuleManager: Shutting down and abandoning module SceneOutliner (159)
-[2014.06.05-11.47.27:985][881]LogModuleManager: Shutting down and abandoning module EditorWidgets (158)
-[2014.06.05-11.47.27:985][881]LogModuleManager: Shutting down and abandoning module CollectionManager (157)
-[2014.06.05-11.47.27:985][881]LogModuleManager: Shutting down and abandoning module StatsViewer (156)
-[2014.06.05-11.47.27:985][881]LogModuleManager: Shutting down and abandoning module FoliageEdit (155)
-[2014.06.05-11.47.27:985][881]LogModuleManager: Shutting down and abandoning module LandscapeEditor (154)
-[2014.06.05-11.47.27:991][881]LogModuleManager: Shutting down and abandoning module MeshPaint (153)
-[2014.06.05-11.47.27:991][881]LogModuleManager: Shutting down and abandoning module ActorPickerMode (152)
-[2014.06.05-11.47.27:991][881]LogModuleManager: Shutting down and abandoning module GeometryMode (151)
-[2014.06.05-11.47.27:991][881]LogModuleManager: Shutting down and abandoning module TextureAlignMode (150)
-[2014.06.05-11.47.27:991][881]LogModuleManager: Shutting down and abandoning module BspMode (149)
-[2014.06.05-11.47.27:991][881]LogModuleManager: Shutting down and abandoning module PlacementMode (148)
-[2014.06.05-11.47.27:991][881]LogModuleManager: Shutting down and abandoning module AutomationWorker (147)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module ViewportSnapping (146)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module XmlParser (141)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module Blutility (140)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (135)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module InputBindingEditor (134)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (133)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module SettingsEditor (132)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module SessionLauncher (131)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module SessionFrontend (130)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module ProfilerClient (129)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (128)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module DeviceManager (127)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module AutomationController (126)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module AutomationWindow (125)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module Layers (124)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (123)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module DetailCustomizations (122)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module PackagesDialog (121)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module PropertyEditor (120)
-[2014.06.05-11.47.27:992][881]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (119)
-[2014.06.05-11.47.27:993][881]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
-[2014.06.05-11.47.28:018][881]LogModuleManager: Shutting down and abandoning module Persona (117)
-[2014.06.05-11.47.28:018][881]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
-[2014.06.05-11.47.28:019][881]LogModuleManager: Shutting down and abandoning module ContentBrowser (115)
-[2014.06.05-11.47.28:019][881]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
-[2014.06.05-11.47.28:019][881]LogModuleManager: Shutting down and abandoning module Toolbox (113)
-[2014.06.05-11.47.28:019][881]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
-[2014.06.05-11.47.28:019][881]LogModuleManager: Shutting down and abandoning module Sequencer (111)
-[2014.06.05-11.47.28:019][881]LogModuleManager: Shutting down and abandoning module AssetTools (110)
-[2014.06.05-11.47.28:019][881]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
-[2014.06.05-11.47.28:019][881]LogModuleManager: Shutting down and abandoning module OutputLog (108)
-[2014.06.05-11.47.28:019][881]LogModuleManager: Shutting down and abandoning module GammaUI (107)
-[2014.06.05-11.47.28:019][881]LogModuleManager: Shutting down and abandoning module Documentation (106)
-[2014.06.05-11.47.28:019][881]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
-[2014.06.05-11.47.28:019][881]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
-[2014.06.05-11.47.28:019][881]LogModuleManager: Shutting down and abandoning module Analytics (103)
-[2014.06.05-11.47.28:019][881]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
-[2014.06.05-11.47.28:157][881]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
-[2014.06.05-11.47.28:157][881]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
-[2014.06.05-11.47.28:157][881]LogModuleManager: Shutting down and abandoning module Matinee (99)
-[2014.06.05-11.47.28:157][881]LogModuleManager: Shutting down and abandoning module Kismet (98)
-[2014.06.05-11.47.28:157][881]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
-[2014.06.05-11.47.28:157][881]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
-[2014.06.05-11.47.28:158][881]LogModuleManager: Shutting down and abandoning module MainFrame (95)
-[2014.06.05-11.47.28:158][881]LogModuleManager: Shutting down and abandoning module SourceControl (94)
-[2014.06.05-11.47.28:158][881]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
-[2014.06.05-11.47.28:158][881]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
-[2014.06.05-11.47.28:158][881]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
-[2014.06.05-11.47.28:158][881]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
-[2014.06.05-11.47.28:158][881]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
-[2014.06.05-11.47.28:158][881]LogModuleManager: Shutting down and abandoning module MessageLog (88)
-[2014.06.05-11.47.28:158][881]LogModuleManager: Shutting down and abandoning module Slate (87)
-[2014.06.05-11.47.28:158][881]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
-[2014.06.05-11.47.28:161][881]LogModuleManager: Shutting down and abandoning module SessionServices (85)
-[2014.06.05-11.47.28:161][881]LogModuleManager: Shutting down and abandoning module Messaging (84)
-[2014.06.05-11.47.28:161][881]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
-[2014.06.05-11.47.28:161][881]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
-[2014.06.05-11.47.28:161][881]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
-[2014.06.05-11.47.28:161][881]LogModuleManager: Shutting down and abandoning module Networking (79)
-[2014.06.05-11.47.28:161][881]LogModuleManager: Shutting down and abandoning module Core (78)
-[2014.06.05-11.47.28:161][881]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
-[2014.06.05-11.47.28:161][881]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
-[2014.06.05-11.47.28:161][881]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
-[2014.06.05-11.47.28:161][881]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
-[2014.06.05-11.47.28:161][881]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
-[2014.06.05-11.47.28:178][881]LogDerivedDataCache: Shutdown
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module InputCore (52)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module Settings (51)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module Renderer (43)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module Engine (42)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
-[2014.06.05-11.47.28:178][881]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
-[2014.06.05-11.47.28:181][881]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
-[2014.06.05-11.47.28:181][881]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
-[2014.06.05-11.47.28:181][881]LogModuleManager: Shutting down and abandoning module CableComponent (30)
-[2014.06.05-11.47.28:181][881]LogModuleManager: Shutting down and abandoning module OculusRift (26)
-[2014.06.05-11.47.28:181][881]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
-[2014.06.05-11.47.28:281][881]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
-[2014.06.05-11.47.28:281][881]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
-[2014.06.05-11.47.28:281][881]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
-[2014.06.05-11.47.28:281][881]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
-[2014.06.05-11.47.28:281][881]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
-[2014.06.05-11.47.28:281][881]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
-[2014.06.05-11.47.28:281][881]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
-[2014.06.05-11.47.28:281][881]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
-[2014.06.05-11.47.28:281][881]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
-[2014.06.05-11.47.28:281][881]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2014.06.05-11.47.28:281][881]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2014.06.05-11.47.28:281][881]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2014.06.05-11.47.28:281][881]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2014.06.05-11.47.28:281][881]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2014.06.05-11.47.28:282][881]LogExit: Exiting.
-[2014.06.05-11.47.28:291][881]Log file closed, 06/05/14 21:47:28
+[2014.06.07-06.05.23:561][  0]LogTaskGraph: Started task graph with 3 named threads and 8 total threads.
+[2014.06.07-06.05.23:637][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.06.07-06.05.23:656][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.06.07-06.05.23:665][  0]LogInit: Object subsystem initialized
+[2014.06.07-06.05.23:667][  0]LogInit: Selected Device Profile: [Windows]
+[2014.06.07-06.05.23:667][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.06.07-06.05.23:678][  0]LogInit: Computer: TAKAMATSU-PC
+[2014.06.07-06.05.23:678][  0]LogInit: User: takamatsu
+[2014.06.07-06.05.23:680][  0]LogInit: CPU Page size=4096, Cores=8
+[2014.06.07-06.05.23:680][  0]LogInit: High frequency timer resolution =3.527558 MHz
+[2014.06.07-06.05.23:680][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx) Virtual=8192.0GB
+[2014.06.07-06.05.23:680][  0]LogMemory: Platform Memory Stats for Windows
+[2014.06.07-06.05.23:680][  0]LogMemory: Process Physical Memory: 55.14 MB used, 55.14 MB peak
+[2014.06.07-06.05.23:680][  0]LogMemory: Process Virtual Memory: 31.87 MB used, 31.94 MB peak
+[2014.06.07-06.05.23:680][  0]LogMemory: Physical Memory: 6856.09 MB used, 32695.07 MB total
+[2014.06.07-06.05.23:680][  0]LogMemory: Virtual Memory: 237.16 MB used, 8388608.00 MB total
+[2014.06.07-06.05.23:745][  0]LogD3D11RHI: Found D3D11 adapter 0: ASUS HD7970 Series (Feature Level 11_0)
+[2014.06.07-06.05.23:745][  0]LogD3D11RHI: Adapter has 3023MB of dedicated video memory, 0MB of dedicated system memory, and 16091MB of shared system memory, 2 output[s]
+[2014.06.07-06.05.23:745][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.06.07-06.05.23:757][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.06.07-06.05.23:798][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.06.07-06.05.23:926][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.06.07-06.05.25:107][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.06.07-06.05.25:346][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.06.07-06.05.25:422][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.06.07-06.05.25:491][  0]LogDerivedDataCache: Loaded boot cache 0.07s 39MB C:/Users/takamatsu/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.06.07-06.05.25:491][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/takamatsu/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.06.07-06.05.25:491][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.06.07-06.05.25:491][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.06.07-06.05.25:502][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.06.07-06.05.25:514][  0]LogDerivedDataCache: Using Local data cache path C:/Users/takamatsu/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.06.07-06.05.25:821][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.06.07-06.05.25:821][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.06.07-06.05.26:329][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.06.07-06.05.26:901][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.06.07-06.05.26:901][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.06.07-06.05.26:907][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.06.07-06.05.26:907][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.06.07-06.05.27:252][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.06.07-06.05.27:371][  0]SourceControl: Info Source control is disabled
+[2014.06.07-06.05.27:371][  0]SourceControl: Info Source control is disabled
+[2014.06.07-06.05.27:386][  0]SourceControl: Info Source control is disabled
+[2014.06.07-06.05.27:529][  0]BlueprintLog: New page: Editor Load
+[2014.06.07-06.05.27:610][  0]LogObj: 19136 objects as part of root set at end of initial load.
+[2014.06.07-06.05.27:610][  0]LogUObjectAllocator: 3804656 out of 0 bytes used by permanent object pool.
+[2014.06.07-06.05.28:069][  0]LogEngine: Initializing Engine...
+[2014.06.07-06.05.28:232][  0]LogInit: XAudio2 using 'Speakers (SB Recon3D PCIe)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2014.06.07-06.05.28:248][  0]LogInit: FAudioDevice initialized.
+[2014.06.07-06.05.28:287][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/takamatsu/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.06.07-06.05.28:295][  0]LogInit: Texture streaming: Enabled
+[2014.06.07-06.05.28:358][  0]LogInit: Transaction tracking system initialized
+[2014.06.07-06.05.28:588][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2014.06.07-06.05.28:990][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.06.07-06.05.29:005][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.06.07-06.05.29:111][  0]LogConsoleResponse:Display: 
+[2014.06.07-06.05.29:494][  0]SourceControl: Info Source control is disabled
+[2014.06.07-06.05.37:595][  0]Cmd: MAP LOAD FILE="../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Jam.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.06.07-06.05.37:596][  0]LightingResults: New page: Lighting Build
+[2014.06.07-06.05.37:617][  0]MapCheck: New page: Map Check
+[2014.06.07-06.05.37:617][  0]LightingResults: New page: Lighting Build
+[2014.06.07-06.05.37:624][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000128AEF20
+[2014.06.07-06.05.37:827][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.06.07-06.05.37:827][  0]Cmd: MAP CHECKDEP
+[2014.06.07-06.05.37:827][  0]MapCheck: New page: Jam - 08/06/2014 2:05:37 am
+[2014.06.07-06.05.37:914][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [86.949ms] ==========
+[2014.06.07-06.05.37:914][  0]LogFileHelpers: Loading map 'Jam' took 0.320
+[2014.06.07-06.05.38:057][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_2104_0///////STATCAT_Advanced//// old //STATGROUP_Threads//SplashScreenThread///Thread_1200_0///////STATCAT_Advanced////
+[2014.06.07-06.05.38:057][  0]LogCollectionManager: Loaded 0 collections in 0.001226 seconds
+[2014.06.07-06.05.38:233][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.06.07-06.05.38:233][  0]Cmd: MODE PLACEMENT
+[2014.06.07-06.05.38:290][  0]LogLoad: Full Startup: 16.15 seconds (BP compile: 0.07 seconds)
+[2014.06.07-06.05.38:304][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Character'
+[2014.06.07-06.05.38:433][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x896.
+[2014.06.07-06.05.38:803][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>0F0AF3A9D1C0C317</RequestId><HostId>HsjKCJCW9lFHOxhExz3a1/tF8YTYnE4Y1mO/IWIBSqIt06y0nDAJ2mIf4M+ZRZnW</HostId></Error>
+[2014.06.07-06.05.38:873][  1]LogAssetRegistry: Asset discovery search completed in 10.2964 seconds
+[2014.06.07-06.05.38:898][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>4555D6E75C165924</RequestId><HostId>/s6FmIHRBFFprZLEQx01QRCE7HCS8yFXFkIm9y+X73YAmYHdQWdACCH56+kEMciK</HostId></Error>
+[2014.06.07-06.05.38:910][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>535EB2AD66AE0DE6</RequestId><HostId>Q4QkpZT68F3MqUiHrQfu6T0gP2POoZuII3UccKChZeLIrQZ0AYwSXbpzfyv1+1c7X3quVDl2Vng=</HostId></Error>
+[2014.06.07-06.05.38:950][  6]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>63601C70515A3D80</RequestId><HostId>SDa6GVmpJvAcyNKUvAt8jrAX1UiJvRZKtwdBMe8tdSiEaB+7yJSdqssA8We/vOcy</HostId></Error>
+[2014.06.07-06.05.38:991][ 10]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>EDADDFB67C81D21B</RequestId><HostId>tTE25p7nE6/mGuQDre+A5rir3+iLYBOnrOK9PepJ0VOM8Gp/t1KfTlMLHuogdfAy6HOeA15M5NE=</HostId></Error>
+[2014.06.07-06.05.39:014][ 12]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.06.07-06.05.45:367][395]Cmd: MAP LOAD FILE="../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Terrain_Trial.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.06.07-06.05.45:368][395]LightingResults: New page: Lighting Build
+[2014.06.07-06.05.45:368][395]Cmd: MODE PLACEMENT
+[2014.06.07-06.05.45:395][395]LoadErrors: New page: Loading map: Terrain_Trial.umap
+[2014.06.07-06.05.45:395][395]MapCheck: New page: Map Check
+[2014.06.07-06.05.45:395][395]LightingResults: New page: Lighting Build
+[2014.06.07-06.05.45:416][395]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001076F560
+[2014.06.07-06.05.45:431][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Dirt1_LayerInfo'
+[2014.06.07-06.05.45:431][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Dirt1_LayerInfo' while loading ../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Terrain_Trial.umap.
+[2014.06.07-06.05.45:431][395]LoadErrors:Error: Error /Game/Terrain_Trial : Can't find file for asset. /Game/Assets/Terrain_Trial/Material/Dirt1_LayerInfo
+[2014.06.07-06.05.45:431][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Dirt2_LayerInfo'
+[2014.06.07-06.05.45:432][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Dirt2_LayerInfo' while loading ../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Terrain_Trial.umap.
+[2014.06.07-06.05.45:432][395]LoadErrors:Error: Error /Game/Terrain_Trial : Can't find file for asset. /Game/Assets/Terrain_Trial/Material/Dirt2_LayerInfo
+[2014.06.07-06.05.45:432][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:432][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading ../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Terrain_Trial.umap.
+[2014.06.07-06.05.45:432][395]LoadErrors:Error: Error /Game/Terrain_Trial : Can't find file for asset. /Game/Assets/Terrain_Trial/Material/Grass_LayerInfo
+[2014.06.07-06.05.45:433][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:433][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading ../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Terrain_Trial.umap.
+[2014.06.07-06.05.45:433][395]LoadErrors:Error: Error /Game/Terrain_Trial : Can't find file for asset. /Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo
+[2014.06.07-06.05.45:434][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:434][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading ../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Terrain_Trial.umap.
+[2014.06.07-06.05.45:434][395]LoadErrors:Error: Error /Game/Terrain_Trial : Can't find file for asset. /Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo
+[2014.06.07-06.05.45:434][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:435][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading ../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Terrain_Trial.umap.
+[2014.06.07-06.05.45:435][395]LoadErrors:Error: Error /Game/Terrain_Trial : Can't find file for asset. /Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo
+[2014.06.07-06.05.45:435][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel3_LayerInfo'
+[2014.06.07-06.05.45:435][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel3_LayerInfo' while loading ../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Terrain_Trial.umap.
+[2014.06.07-06.05.45:436][395]LoadErrors:Error: Error /Game/Terrain_Trial : Can't find file for asset. /Game/Assets/Terrain_Trial/Material/gravel3_LayerInfo
+[2014.06.07-06.05.45:445][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Dirt1_LayerInfo'
+[2014.06.07-06.05.45:445][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Dirt1_LayerInfo' while loading ../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Terrain_Trial.umap.
+[2014.06.07-06.05.45:446][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Dirt2_LayerInfo'
+[2014.06.07-06.05.45:446][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Dirt2_LayerInfo' while loading ../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Terrain_Trial.umap.
+[2014.06.07-06.05.45:446][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:446][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading ../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Terrain_Trial.umap.
+[2014.06.07-06.05.45:447][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:447][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading ../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Terrain_Trial.umap.
+[2014.06.07-06.05.45:447][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:448][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading ../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Terrain_Trial.umap.
+[2014.06.07-06.05.45:448][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:448][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading ../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Terrain_Trial.umap.
+[2014.06.07-06.05.45:449][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel3_LayerInfo'
+[2014.06.07-06.05.45:449][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel3_LayerInfo' while loading ../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Terrain_Trial.umap.
+[2014.06.07-06.05.45:462][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:462][395]LoadErrors: Info Failed to load /Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo.GrassAndDirt_LayerInfo Referenced by Landscape_0 Property /Script/Engine.LandscapeProxy:LandscapeEditorLayerSettings.LayerInfoObj
+[2014.06.07-06.05.45:462][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:463][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:463][395]LoadErrors: Info Failed to load /Game/Assets/Terrain_Trial/Material/Grass_LayerInfo.Grass_LayerInfo Referenced by Landscape_0 Property /Script/Engine.LandscapeProxy:LandscapeEditorLayerSettings.LayerInfoObj
+[2014.06.07-06.05.45:464][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:464][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:465][395]LoadErrors: Info Failed to load /Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo.Gravel1_LayerInfo Referenced by Landscape_0 Property /Script/Engine.LandscapeProxy:LandscapeEditorLayerSettings.LayerInfoObj
+[2014.06.07-06.05.45:465][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:466][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:466][395]LoadErrors: Info Failed to load /Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo.gravel2_LayerInfo Referenced by Landscape_0 Property /Script/Engine.LandscapeProxy:LandscapeEditorLayerSettings.LayerInfoObj
+[2014.06.07-06.05.45:466][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:467][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel3_LayerInfo'
+[2014.06.07-06.05.45:467][395]LoadErrors: Info Failed to load /Game/Assets/Terrain_Trial/Material/gravel3_LayerInfo.gravel3_LayerInfo Referenced by Landscape_0 Property /Script/Engine.LandscapeProxy:LandscapeEditorLayerSettings.LayerInfoObj
+[2014.06.07-06.05.45:467][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel3_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:467][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Dirt2_LayerInfo'
+[2014.06.07-06.05.45:468][395]LoadErrors: Info Failed to load /Game/Assets/Terrain_Trial/Material/Dirt2_LayerInfo.Dirt2_LayerInfo Referenced by Landscape_0 Property /Script/Engine.LandscapeProxy:LandscapeEditorLayerSettings.LayerInfoObj
+[2014.06.07-06.05.45:468][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Dirt2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:468][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Dirt1_LayerInfo'
+[2014.06.07-06.05.45:469][395]LoadErrors: Info Failed to load /Game/Assets/Terrain_Trial/Material/Dirt1_LayerInfo.Dirt1_LayerInfo Referenced by Landscape_0 Property /Script/Engine.LandscapeProxy:LandscapeEditorLayerSettings.LayerInfoObj
+[2014.06.07-06.05.45:469][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Dirt1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:469][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:470][395]LoadErrors: Info Failed to load /Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo.Gravel1_LayerInfo Referenced by Landscape_0 Property /Script/Engine.LandscapeComponent:WeightmapLayerAllocationInfo.LayerInfo
+[2014.06.07-06.05.45:470][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:470][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:471][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:471][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:472][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:472][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:472][395]LoadErrors: Info Failed to load /Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo.gravel2_LayerInfo Referenced by Landscape_0 Property /Script/Engine.LandscapeComponent:WeightmapLayerAllocationInfo.LayerInfo
+[2014.06.07-06.05.45:472][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:473][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:473][395]LoadErrors: Info Failed to load /Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo.GrassAndDirt_LayerInfo Referenced by Landscape_0 Property /Script/Engine.LandscapeComponent:WeightmapLayerAllocationInfo.LayerInfo
+[2014.06.07-06.05.45:473][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:474][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:474][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:475][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:475][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:476][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:476][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:476][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:477][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:477][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:477][395]LoadErrors: Info Failed to load /Game/Assets/Terrain_Trial/Material/Grass_LayerInfo.Grass_LayerInfo Referenced by Landscape_0 Property /Script/Engine.LandscapeComponent:WeightmapLayerAllocationInfo.LayerInfo
+[2014.06.07-06.05.45:478][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:478][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:478][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:479][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:479][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:480][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:480][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:481][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:481][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:482][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:482][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:482][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:483][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:483][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:484][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:484][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:485][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:485][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:486][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:486][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:487][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:487][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:488][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:488][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:488][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:489][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:489][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:490][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:490][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:490][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:491][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:491][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:492][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:492][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:492][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:493][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:493][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:494][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:494][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:494][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:495][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:495][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:496][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:496][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:497][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:497][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:498][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:498][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:498][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:499][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:499][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:500][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:500][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:500][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:501][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:501][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:502][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:502][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:502][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:503][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:503][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:504][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:504][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:505][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:505][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:505][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:506][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:506][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:507][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:507][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:507][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:508][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:508][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:509][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:509][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:509][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:510][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:510][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:511][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:511][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:512][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:512][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:513][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:513][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:513][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:514][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:514][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:515][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel3_LayerInfo'
+[2014.06.07-06.05.45:515][395]LoadErrors: Info Failed to load /Game/Assets/Terrain_Trial/Material/gravel3_LayerInfo.gravel3_LayerInfo Referenced by Landscape_0 Property /Script/Engine.LandscapeComponent:WeightmapLayerAllocationInfo.LayerInfo
+[2014.06.07-06.05.45:515][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel3_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:516][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:517][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:517][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:518][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:518][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:518][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:519][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel3_LayerInfo'
+[2014.06.07-06.05.45:519][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel3_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:520][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:520][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:521][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:521][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:521][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:522][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:522][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:523][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:523][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:523][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:524][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:524][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:525][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:525][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:526][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:526][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:526][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:527][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:527][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:527][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:528][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:528][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:529][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:529][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:530][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:530][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:531][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:531][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:531][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:532][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:532][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:533][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:533][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:534][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:534][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:535][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:535][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:536][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:536][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:536][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:537][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:537][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:538][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:538][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:539][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:539][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:539][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel3_LayerInfo'
+[2014.06.07-06.05.45:540][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel3_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:540][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:541][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:541][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:541][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:542][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:542][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:543][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel3_LayerInfo'
+[2014.06.07-06.05.45:543][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel3_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:544][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:544][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:545][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:545][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:546][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:546][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:546][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:547][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:547][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:547][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:548][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:548][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:549][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:549][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:550][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:550][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:550][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:551][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:552][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:552][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:553][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:553][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:554][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:554][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:554][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:555][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:555][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:556][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:556][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:556][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:557][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:557][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:558][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:558][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:558][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:559][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:559][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:560][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:560][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:560][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:561][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:562][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:562][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:563][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:563][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:564][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:564][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:565][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:565][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:565][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:566][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:566][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:567][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:567][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:567][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:568][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:568][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:569][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:569][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo'
+[2014.06.07-06.05.45:570][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Grass_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:570][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:571][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:571][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:571][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:572][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:572][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:573][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:573][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:574][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:574][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:575][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:575][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:575][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:576][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:576][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:577][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:577][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:577][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:578][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:578][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:579][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:579][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:580][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:580][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:580][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo'
+[2014.06.07-06.05.45:581][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/gravel2_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:581][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:582][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:582][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:583][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:583][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:584][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:584][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:585][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:585][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:586][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:586][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:586][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:587][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:587][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:588][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:588][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:589][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:589][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:589][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:590][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:590][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:591][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:591][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:591][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:592][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:592][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:593][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:593][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:594][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:594][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:595][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:595][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:595][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:596][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:596][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:596][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:597][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:597][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:598][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo'
+[2014.06.07-06.05.45:598][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/Gravel1_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:599][395]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo'
+[2014.06.07-06.05.45:599][395]LogLinker:Warning: Can't find file for asset '/Game/Assets/Terrain_Trial/Material/GrassAndDirt_LayerInfo' while loading NULL.
+[2014.06.07-06.05.45:648][395]LogMaterial: Missing cached shader map for material TerrainMat, compiling.
+[2014.06.07-06.05.45:664][395]LogMaterial: Incomplete cached shader map for material TerrainMat, compiling.
+[2014.06.07-06.05.45:676][395]LogMaterial: Incomplete cached shader map for material TerrainMat, compiling.
+[2014.06.07-06.05.45:697][395]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.06.07-06.05.45:789][395]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.06.07-06.05.45:922][395]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.06.07-06.05.45:980][395]Cmd: MAP CHECKDEP
+[2014.06.07-06.05.45:980][395]MapCheck: New page: Terrain_Trial - 08/06/2014 2:05:45 am
+[2014.06.07-06.05.46:095][395]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [114.245ms] ==========
+[2014.06.07-06.05.46:095][395]LogFileHelpers: Loading map 'Terrain_Trial' took 0.728
+[2014.06.07-06.05.46:203][396]Cmd: UpdateLandscapeEditorData -warnings
+[2014.06.07-06.05.46:203][396]MapCheck:Warning: Warning LandscapeComponent_0 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:255][396]MapCheck:Warning: Warning LandscapeComponent_1 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:256][396]MapCheck:Warning: Warning LandscapeComponent_2 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:258][396]MapCheck:Warning: Warning LandscapeComponent_3 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:259][396]MapCheck:Warning: Warning LandscapeComponent_4 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:260][396]MapCheck:Warning: Warning LandscapeComponent_5 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:261][396]MapCheck:Warning: Warning LandscapeComponent_6 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:262][396]MapCheck:Warning: Warning LandscapeComponent_7 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:263][396]MapCheck:Warning: Warning LandscapeComponent_8 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:264][396]MapCheck:Warning: Warning LandscapeComponent_9 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:267][396]MapCheck:Warning: Warning LandscapeComponent_10 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:272][396]MapCheck:Warning: Warning LandscapeComponent_11 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:274][396]MapCheck:Warning: Warning LandscapeComponent_12 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:279][396]MapCheck:Warning: Warning LandscapeComponent_13 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:282][396]MapCheck:Warning: Warning LandscapeComponent_14 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:284][396]MapCheck:Warning: Warning LandscapeComponent_15 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:286][396]MapCheck:Warning: Warning LandscapeComponent_16 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:289][396]MapCheck:Warning: Warning LandscapeComponent_17 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:292][396]MapCheck:Warning: Warning LandscapeComponent_18 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:297][396]MapCheck:Warning: Warning LandscapeComponent_19 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:301][396]MapCheck:Warning: Warning LandscapeComponent_20 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:306][396]MapCheck:Warning: Warning LandscapeComponent_21 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:309][396]MapCheck:Warning: Warning LandscapeComponent_22 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:312][396]MapCheck:Warning: Warning LandscapeComponent_23 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:313][396]MapCheck:Warning: Warning LandscapeComponent_24 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:315][396]MapCheck:Warning: Warning LandscapeComponent_25 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:320][396]MapCheck:Warning: Warning LandscapeComponent_26 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:323][396]MapCheck:Warning: Warning LandscapeComponent_27 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:330][396]MapCheck:Warning: Warning LandscapeComponent_28 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:335][396]MapCheck:Warning: Warning LandscapeComponent_29 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:339][396]MapCheck:Warning: Warning LandscapeComponent_30 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:343][396]MapCheck:Warning: Warning LandscapeComponent_31 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:344][396]MapCheck:Warning: Warning LandscapeComponent_32 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:346][396]MapCheck:Warning: Warning LandscapeComponent_33 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:350][396]MapCheck:Warning: Warning LandscapeComponent_34 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:354][396]MapCheck:Warning: Warning LandscapeComponent_35 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:358][396]MapCheck:Warning: Warning LandscapeComponent_36 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:364][396]MapCheck:Warning: Warning LandscapeComponent_37 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:369][396]MapCheck:Warning: Warning LandscapeComponent_38 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:373][396]MapCheck:Warning: Warning LandscapeComponent_39 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:374][396]MapCheck:Warning: Warning LandscapeComponent_40 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:377][396]MapCheck:Warning: Warning LandscapeComponent_41 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:380][396]MapCheck:Warning: Warning LandscapeComponent_42 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:385][396]MapCheck:Warning: Warning LandscapeComponent_43 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:389][396]MapCheck:Warning: Warning LandscapeComponent_44 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:392][396]MapCheck:Warning: Warning LandscapeComponent_45 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:396][396]MapCheck:Warning: Warning LandscapeComponent_46 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:398][396]MapCheck:Warning: Warning LandscapeComponent_47 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:399][396]MapCheck:Warning: Warning LandscapeComponent_48 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:400][396]MapCheck:Warning: Warning LandscapeComponent_49 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:402][396]MapCheck:Warning: Warning LandscapeComponent_50 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:405][396]MapCheck:Warning: Warning LandscapeComponent_51 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:409][396]MapCheck:Warning: Warning LandscapeComponent_52 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:411][396]MapCheck:Warning: Warning LandscapeComponent_53 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:413][396]MapCheck:Warning: Warning LandscapeComponent_54 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:415][396]MapCheck:Warning: Warning LandscapeComponent_55 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:416][396]MapCheck:Warning: Warning LandscapeComponent_56 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:417][396]MapCheck:Warning: Warning LandscapeComponent_57 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:418][396]MapCheck:Warning: Warning LandscapeComponent_58 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:420][396]MapCheck:Warning: Warning LandscapeComponent_59 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:421][396]MapCheck:Warning: Warning LandscapeComponent_60 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:422][396]MapCheck:Warning: Warning LandscapeComponent_61 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:422][396]MapCheck:Warning: Warning LandscapeComponent_62 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:424][396]MapCheck:Warning: Warning LandscapeComponent_63 : Fixed up deleted layer weightmap 
+[2014.06.07-06.05.46:425][396]Cmd: UpdateLandscapeEditorData
+[2014.06.07-06.05.55:747][992]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.06.07-06.05.55:759][992]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.06.07-06.05.55:852][992]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.06.07-06.05.55:852][992]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.06.07-06.05.55:852][992]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.06.07-06.05.55:852][992]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.06.07-06.05.55:876][992]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.06.07-06.05.55:879][992]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.06.07-06.05.55:881][992]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.06.07-06.05.55:883][992]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling.
+[2014.06.07-06.05.55:885][992]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling.
+[2014.06.07-06.05.55:887][992]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling.
+[2014.06.07-06.05.55:889][992]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling.
+[2014.06.07-06.05.55:891][992]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling.
+[2014.06.07-06.05.55:893][992]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling.
+[2014.06.07-06.05.55:896][992]MaterialEditorStats: Info Base pass shader with static lighting: 90 instructions
+[2014.06.07-06.05.55:896][992]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2014.06.07-06.05.55:896][992]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.06.07-06.05.55:896][992]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.06.07-06.06.08:277][668]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Terrain_Trial'
+[2014.06.07-06.06.10:258][800]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.06.07-06.06.13:286][975]LogMaterial: 0.002820 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2014.06.07-06.06.13:303][975]LogMaterial: 0.002701 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2014.06.07-06.06.13:312][975]LogMaterial: 0.002551 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2014.06.07-06.06.13:326][975]LogMaterial: 0.002842 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2014.06.07-06.06.13:328][975]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2014.06.07-06.06.44:460][759]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Terrain_Trial'
+[2014.06.07-06.07.06:045][629]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Terrain_Mat_Info/Dirt2_LayerInfo'
+[2014.06.07-06.07.06:045][629]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Terrain_Mat_Info/Dirt2_LayerInfo'
+[2014.06.07-06.07.06:045][629]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Assets/Terrain_Trial/Terrain_Mat_Info/Dirt2_LayerInfo.Dirt2_LayerInfo'
+[2014.06.07-06.07.06:068][629]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.06.07-06.07.06:069][629]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Terrain_Trial/Terrain_Mat_Info'
+[2014.06.07-06.07.11:542][737]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Terrain_Mat_Info/Dirt1_LayerInfo'
+[2014.06.07-06.07.11:542][737]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Terrain_Mat_Info/Dirt1_LayerInfo'
+[2014.06.07-06.07.11:542][737]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Assets/Terrain_Trial/Terrain_Mat_Info/Dirt1_LayerInfo.Dirt1_LayerInfo'
+[2014.06.07-06.07.11:564][737]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.06.07-06.07.11:564][737]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Terrain_Trial/Terrain_Mat_Info'
+[2014.06.07-06.07.16:239][834]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Terrain_Mat_Info/gravel2_LayerInfo'
+[2014.06.07-06.07.16:239][834]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Terrain_Mat_Info/gravel2_LayerInfo'
+[2014.06.07-06.07.16:239][834]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Assets/Terrain_Trial/Terrain_Mat_Info/gravel2_LayerInfo.gravel2_LayerInfo'
+[2014.06.07-06.07.16:260][834]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.06.07-06.07.16:260][834]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Terrain_Trial/Terrain_Mat_Info'
+[2014.06.07-06.07.23:023][956]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Terrain_Mat_Info/gravel3_LayerInfo'
+[2014.06.07-06.07.23:023][956]LogLinker:Warning: Can't find file '/Game/Assets/Terrain_Trial/Terrain_Mat_Info/gravel3_LayerInfo'
+[2014.06.07-06.07.23:023][956]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Assets/Terrain_Trial/Terrain_Mat_Info/gravel3_LayerInfo.gravel3_LayerInfo'
+[2014.06.07-06.07.23:046][956]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.06.07-06.07.23:046][956]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Terrain_Trial/Terrain_Mat_Info'
+[2014.06.07-06.07.27:670][216]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2014.06.07-06.07.27:672][216]LogTexture:Display: Building textures: Texture2D_102 (BGRA8)
+[2014.06.07-06.07.27:674][216]LogTexture:Display: Building textures: Texture2D_103 (BGRA8)
+[2014.06.07-06.07.27:676][216]LogTexture:Display: Building textures: Texture2D_106 (BGRA8)
+[2014.06.07-06.07.27:679][216]LogTexture:Display: Building textures: Texture2D_107 (BGRA8)
+[2014.06.07-06.07.27:681][216]LogTexture:Display: Building textures: Texture2D_108 (BGRA8)
+[2014.06.07-06.07.27:683][216]LogTexture:Display: Building textures: Texture2D_109 (BGRA8)
+[2014.06.07-06.07.27:685][216]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2014.06.07-06.07.27:687][216]LogTexture:Display: Building textures: Texture2D_110 (BGRA8)
+[2014.06.07-06.07.27:689][216]LogTexture:Display: Building textures: Texture2D_112 (BGRA8)
+[2014.06.07-06.07.27:690][216]LogTexture:Display: Building textures: Texture2D_113 (BGRA8)
+[2014.06.07-06.07.27:692][216]LogTexture:Display: Building textures: Texture2D_114 (BGRA8)
+[2014.06.07-06.07.27:693][216]LogTexture:Display: Building textures: Texture2D_115 (BGRA8)
+[2014.06.07-06.07.27:695][216]LogTexture:Display: Building textures: Texture2D_118 (BGRA8)
+[2014.06.07-06.07.27:697][216]LogTexture:Display: Building textures: Texture2D_119 (BGRA8)
+[2014.06.07-06.07.27:699][216]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2014.06.07-06.07.27:701][216]LogTexture:Display: Building textures: Texture2D_120 (BGRA8)
+[2014.06.07-06.07.27:703][216]LogTexture:Display: Building textures: Texture2D_124 (BGRA8)
+[2014.06.07-06.07.27:705][216]LogTexture:Display: Building textures: Texture2D_13 (BGRA8)
+[2014.06.07-06.07.27:706][216]LogTexture:Display: Building textures: Texture2D_131 (BGRA8)
+[2014.06.07-06.07.27:707][216]LogTexture:Display: Building textures: Texture2D_132 (BGRA8)
+[2014.06.07-06.07.27:709][216]LogTexture:Display: Building textures: Texture2D_133 (BGRA8)
+[2014.06.07-06.07.27:710][216]LogTexture:Display: Building textures: Texture2D_14 (BGRA8)
+[2014.06.07-06.07.27:711][216]LogTexture:Display: Building textures: Texture2D_144 (BGRA8)
+[2014.06.07-06.07.27:713][216]LogTexture:Display: Building textures: Texture2D_145 (BGRA8)
+[2014.06.07-06.07.27:715][216]LogTexture:Display: Building textures: Texture2D_146 (BGRA8)
+[2014.06.07-06.07.27:716][216]LogTexture:Display: Building textures: Texture2D_147 (BGRA8)
+[2014.06.07-06.07.27:718][216]LogTexture:Display: Building textures: Texture2D_148 (BGRA8)
+[2014.06.07-06.07.27:720][216]LogTexture:Display: Building textures: Texture2D_149 (BGRA8)
+[2014.06.07-06.07.27:722][216]LogTexture:Display: Building textures: Texture2D_15 (BGRA8)
+[2014.06.07-06.07.27:723][216]LogTexture:Display: Building textures: Texture2D_16 (BGRA8)
+[2014.06.07-06.07.27:725][216]LogTexture:Display: Building textures: Texture2D_17 (BGRA8)
+[2014.06.07-06.07.27:727][216]LogTexture:Display: Building textures: Texture2D_18 (BGRA8)
+[2014.06.07-06.07.27:728][216]LogTexture:Display: Building textures: Texture2D_19 (BGRA8)
+[2014.06.07-06.07.27:730][216]LogTexture:Display: Building textures: Texture2D_20 (BGRA8)
+[2014.06.07-06.07.27:733][216]LogTexture:Display: Building textures: Texture2D_21 (BGRA8)
+[2014.06.07-06.07.27:735][216]LogTexture:Display: Building textures: Texture2D_24 (BGRA8)
+[2014.06.07-06.07.27:737][216]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2014.06.07-06.07.27:740][216]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2014.06.07-06.07.27:743][216]LogTexture:Display: Building textures: Texture2D_33 (BGRA8)
+[2014.06.07-06.07.27:746][216]LogTexture:Display: Building textures: Texture2D_34 (BGRA8)
+[2014.06.07-06.07.27:748][216]LogTexture:Display: Building textures: Texture2D_36 (BGRA8)
+[2014.06.07-06.07.27:750][216]LogTexture:Display: Building textures: Texture2D_37 (BGRA8)
+[2014.06.07-06.07.27:752][216]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2014.06.07-06.07.27:754][216]LogTexture:Display: Building textures: Texture2D_49 (BGRA8)
+[2014.06.07-06.07.27:756][216]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2014.06.07-06.07.27:757][216]LogTexture:Display: Building textures: Texture2D_50 (BGRA8)
+[2014.06.07-06.07.27:759][216]LogTexture:Display: Building textures: Texture2D_65 (BGRA8)
+[2014.06.07-06.07.27:760][216]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2014.06.07-06.07.27:761][216]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2014.06.07-06.07.27:763][216]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2014.06.07-06.07.27:765][216]LogTexture:Display: Building textures: Texture2D_92 (BGRA8)
+[2014.06.07-06.07.27:767][216]LogTexture:Display: Building textures: Texture2D_94 (BGRA8)
+[2014.06.07-06.07.27:770][216]LogTexture:Display: Building textures: Texture2D_95 (BGRA8)
+[2014.06.07-06.07.27:773][216]LogTexture:Display: Building textures: Texture2D_96 (BGRA8)
+[2014.06.07-06.07.27:774][216]LogTexture:Display: Building textures: Texture2D_99 (BGRA8)
+[2014.06.07-06.07.27:950][216]LogSavePackage: Save=283.144043ms
+[2014.06.07-06.07.27:950][216]LogSavePackage: Moving '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Saved/Terrain_TrialB7EA75944D09BFB1EE06D4A95EC8E064.tmp' to '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Terrain_Trial.umap'
+[2014.06.07-06.07.27:978][216]LogFileHelpers: Saving map 'Terrain_Trial' took 0.428
+[2014.06.07-06.07.27:988][216]LogSavePackage: Save=3.683851ms
+[2014.06.07-06.07.27:988][216]LogSavePackage: Moving '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Saved/Dirt2_LayerInfo2A0E44474761265463BD89946FDBC8B2.tmp' to '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Assets/Terrain_Trial/Terrain_Mat_Info/Dirt2_LayerInfo.uasset'
+[2014.06.07-06.07.28:005][216]LogSavePackage: Save=4.351452ms
+[2014.06.07-06.07.28:005][216]LogSavePackage: Moving '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Saved/Dirt1_LayerInfoDE82198D40A99B71E9EC9DB80C12DAD1.tmp' to '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Assets/Terrain_Trial/Terrain_Mat_Info/Dirt1_LayerInfo.uasset'
+[2014.06.07-06.07.28:022][216]LogSavePackage: Save=4.479870ms
+[2014.06.07-06.07.28:022][216]LogSavePackage: Moving '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Saved/gravel2_LayerInfoBCF50D4D4ED9225AA92580924636BFF5.tmp' to '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Assets/Terrain_Trial/Terrain_Mat_Info/gravel2_LayerInfo.uasset'
+[2014.06.07-06.07.28:040][216]LogSavePackage: Save=4.544220ms
+[2014.06.07-06.07.28:040][216]LogSavePackage: Moving '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Saved/gravel3_LayerInfoEFF9CC78449B5C56FF3593A1531E9E6B.tmp' to '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Assets/Terrain_Trial/Terrain_Mat_Info/gravel3_LayerInfo.uasset'
+[2014.06.07-06.07.36:764][724]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets'
+[2014.06.07-06.07.37:626][778]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Terrain_Trial'
+[2014.06.07-06.07.39:279][884]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Character'
+[2014.06.07-06.07.39:916][921]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets'
+[2014.06.07-06.07.42:420][ 77]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Terrain_Trial'
+[2014.06.07-06.07.46:606][300]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2014.06.07-06.07.46:794][311]LogTexture:Display: Building textures: Texture2D_22 (BGRA8)
+[2014.06.07-06.07.47:674][363]LogTexture:Display: Building textures: Texture2D_23 (BGRA8)
+[2014.06.07-06.07.50:870][542]LogTexture:Display: Building textures: Texture2D_27 (BGRA8)
+[2014.06.07-06.07.50:880][542]LogMaterial: 0.003052 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2014.06.07-06.07.51:207][560]LogTexture:Display: Building textures: Texture2D_28 (BGRA8)
+[2014.06.07-06.07.51:742][591]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2014.06.07-06.07.52:925][661]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2014.06.07-06.07.53:298][682]LogTexture:Display: Building textures: Texture2D_31 (BGRA8)
+[2014.06.07-06.08.00:195][ 76]LogTexture:Display: Building textures: Texture2D_32 (BGRA8)
+[2014.06.07-06.08.00:200][ 76]LogMaterial: Missing cached shader map for material TerrainMat, compiling.
+[2014.06.07-06.08.00:207][ 76]LogMaterial: Incomplete cached shader map for material TerrainMat, compiling.
+[2014.06.07-06.08.00:216][ 76]LogMaterial: 0.009983 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2014.06.07-06.08.00:368][ 81]LogTexture:Display: Building textures: Texture2D_35 (BGRA8)
+[2014.06.07-06.08.00:950][ 95]LogTexture:Display: Building textures: Texture2D_38 (BGRA8)
+[2014.06.07-06.08.00:954][ 95]LogMaterial: Missing cached shader map for material TerrainMat, compiling.
+[2014.06.07-06.08.00:963][ 95]LogMaterial: Incomplete cached shader map for material TerrainMat, compiling.
+[2014.06.07-06.08.00:975][ 95]LogMaterial: 0.011665 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2014.06.07-06.08.00:977][ 95]LogTexture:Display: Building textures: Texture2D_39 (BGRA8)
+[2014.06.07-06.08.01:573][124]LogTexture:Display: Building textures: Texture2D_40 (BGRA8)
+[2014.06.07-06.08.04:072][244]LogTexture:Display: Building textures: Texture2D_41 (BGRA8)
+[2014.06.07-06.08.05:193][298]LogTexture:Display: Building textures: Texture2D_42 (BGRA8)
+[2014.06.07-06.08.05:278][302]LogTexture:Display: Building textures: Texture2D_43 (BGRA8)
+[2014.06.07-06.08.06:576][363]LogTexture:Display: Building textures: Texture2D_44 (BGRA8)
+[2014.06.07-06.08.19:068][962]LogTexture:Display: Building textures: Texture2D_45 (BGRA8)
+[2014.06.07-06.08.19:080][962]LogMaterial: 0.003227 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2014.06.07-06.08.19:528][983]LogTexture:Display: Building textures: Texture2D_46 (BGRA8)
+[2014.06.07-06.08.19:540][983]LogMaterial: 0.003046 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2014.06.07-06.08.19:860][998]LogTexture:Display: Building textures: Texture2D_47 (BGRA8)
+[2014.06.07-06.08.22:321][110]LogTexture:Display: Building textures: Texture2D_48 (BGRA8)
+[2014.06.07-06.08.27:712][388]LogTexture:Display: Building textures: Texture2D_51 (BGRA8)
+[2014.06.07-06.08.27:714][388]LogTexture:Display: Building textures: Texture2D_52 (BGRA8)
+[2014.06.07-06.08.30:600][555]LogTexture:Display: Building textures: Texture2D_53 (BGRA8)
+[2014.06.07-06.08.30:602][555]LogTexture:Display: Building textures: Texture2D_54 (BGRA8)
+[2014.06.07-06.08.35:453][842]LogTexture:Display: Building textures: Texture2D_55 (BGRA8)
+[2014.06.07-06.08.35:456][842]LogTexture:Display: Building textures: Texture2D_56 (BGRA8)
+[2014.06.07-06.08.38:796][ 38]LogTexture:Display: Building textures: Texture2D_57 (BGRA8)
+[2014.06.07-06.08.39:439][ 76]LogTexture:Display: Building textures: Texture2D_58 (BGRA8)
+[2014.06.07-06.08.39:458][ 77]LogTexture:Display: Building textures: Texture2D_59 (BGRA8)
+[2014.06.07-06.08.39:462][ 77]LogMaterial: Missing cached shader map for material TerrainMat, compiling.
+[2014.06.07-06.08.39:468][ 77]LogMaterial: Incomplete cached shader map for material TerrainMat, compiling.
+[2014.06.07-06.08.39:477][ 77]LogMaterial: 0.009111 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2014.06.07-06.08.46:673][409]LogTexture:Display: Building textures: Texture2D_60 (BGRA8)
+[2014.06.07-06.08.46:676][409]LogTexture:Display: Building textures: Texture2D_61 (BGRA8)
+[2014.06.07-06.08.46:981][423]LogTexture:Display: Building textures: Texture2D_62 (BGRA8)
+[2014.06.07-06.08.50:567][593]LogTexture:Display: Building textures: Texture2D_63 (BGRA8)
+[2014.06.07-06.09.11:131][777]LogTexture:Display: Building textures: Texture2D_64 (BGRA8)
+[2014.06.07-06.09.28:732][837]LogTexture:Display: Building textures: Texture2D_51 (BGRA8)
+[2014.06.07-06.09.28:734][837]LogTexture:Display: Building textures: Texture2D_38 (BGRA8)
+[2014.06.07-06.09.28:735][837]LogTexture:Display: Building textures: Texture2D_32 (BGRA8)
+[2014.06.07-06.09.28:737][837]LogTexture:Display: Building textures: Texture2D_64 (BGRA8)
+[2014.06.07-06.09.28:739][837]LogTexture:Display: Building textures: Texture2D_48 (BGRA8)
+[2014.06.07-06.09.28:741][837]LogTexture:Display: Building textures: Texture2D_45 (BGRA8)
+[2014.06.07-06.09.28:743][837]LogTexture:Display: Building textures: Texture2D_44 (BGRA8)
+[2014.06.07-06.09.28:746][837]LogTexture:Display: Building textures: Texture2D_52 (BGRA8)
+[2014.06.07-06.09.28:748][837]LogTexture:Display: Building textures: Texture2D_23 (BGRA8)
+[2014.06.07-06.09.28:749][837]LogTexture:Display: Building textures: Texture2D_46 (BGRA8)
+[2014.06.07-06.09.28:752][837]LogTexture:Display: Building textures: Texture2D_35 (BGRA8)
+[2014.06.07-06.09.28:755][837]LogTexture:Display: Building textures: Texture2D_27 (BGRA8)
+[2014.06.07-06.09.28:758][837]LogTexture:Display: Building textures: Texture2D_39 (BGRA8)
+[2014.06.07-06.09.28:760][837]LogTexture:Display: Building textures: Texture2D_31 (BGRA8)
+[2014.06.07-06.09.28:762][837]LogTexture:Display: Building textures: Texture2D_47 (BGRA8)
+[2014.06.07-06.09.28:764][837]LogTexture:Display: Building textures: Texture2D_53 (BGRA8)
+[2014.06.07-06.09.28:766][837]LogTexture:Display: Building textures: Texture2D_54 (BGRA8)
+[2014.06.07-06.09.28:769][837]LogTexture:Display: Building textures: Texture2D_40 (BGRA8)
+[2014.06.07-06.09.28:771][837]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2014.06.07-06.09.28:773][837]LogTexture:Display: Building textures: Texture2D_55 (BGRA8)
+[2014.06.07-06.09.28:774][837]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2014.06.07-06.09.28:776][837]LogTexture:Display: Building textures: Texture2D_63 (BGRA8)
+[2014.06.07-06.09.28:778][837]LogTexture:Display: Building textures: Texture2D_28 (BGRA8)
+[2014.06.07-06.09.28:779][837]LogTexture:Display: Building textures: Texture2D_43 (BGRA8)
+[2014.06.07-06.09.28:781][837]LogTexture:Display: Building textures: Texture2D_59 (BGRA8)
+[2014.06.07-06.09.28:783][837]LogTexture:Display: Building textures: Texture2D_57 (BGRA8)
+[2014.06.07-06.09.28:786][837]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2014.06.07-06.09.28:788][837]LogTexture:Display: Building textures: Texture2D_62 (BGRA8)
+[2014.06.07-06.09.28:790][837]LogTexture:Display: Building textures: Texture2D_60 (BGRA8)
+[2014.06.07-06.09.28:794][837]LogTexture:Display: Building textures: Texture2D_61 (BGRA8)
+[2014.06.07-06.09.28:797][837]LogTexture:Display: Building textures: Texture2D_58 (BGRA8)
+[2014.06.07-06.09.28:799][837]LogTexture:Display: Building textures: Texture2D_56 (BGRA8)
+[2014.06.07-06.09.28:802][837]LogTexture:Display: Building textures: Texture2D_41 (BGRA8)
+[2014.06.07-06.09.28:804][837]LogTexture:Display: Building textures: Texture2D_22 (BGRA8)
+[2014.06.07-06.09.28:806][837]LogTexture:Display: Building textures: Texture2D_42 (BGRA8)
+[2014.06.07-06.09.28:966][837]LogSavePackage: Save=240.675278ms
+[2014.06.07-06.09.28:966][837]LogSavePackage: Moving '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Saved/Terrain_TrialEC4DD5EC4268D47862300DAB7EAE7F2B.tmp' to '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Terrain_Trial.umap'
+[2014.06.07-06.09.30:949][954]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.07-06.09.30:949][954]PIE: New page: PIE session: Terrain_Trial (08/06/2014 2:09:30 am)
+[2014.06.07-06.09.30:967][954]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017774s)
+[2014.06.07-06.09.30:968][954]LogPlayLevel: PIE: World Init took: (0.001319s)
+[2014.06.07-06.09.30:968][954]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Terrain_Trial.Terrain_Trial to /Game/UEDPIE_0_Terrain_Trial.Terrain_Trial (0.019390s)
+[2014.06.07-06.09.31:268][954]LogWorld: Game class is 'JamGameMode_C'
+[2014.06.07-06.09.31:314][954]LogWorld: Bringing World /Game/UEDPIE_0_Terrain_Trial.Terrain_Trial up for play (max tick rate 0) at 2014.06.07-16.09.31
+[2014.06.07-06.09.31:315][954]LogWorld: Bringing up level for play took: 0.005013
+[2014.06.07-06.09.31:315][954]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
+[2014.06.07-06.09.31:315][954]LogGameMode: RestartPlayer 256
+[2014.06.07-06.09.31:317][954]LogPlayerController: ClientRestart_Implementation CharacterBP_C_0
+[2014.06.07-06.09.31:317][954]LogPlayerController: ServerAcknowledgePossession_Implementation CharacterBP_C_0
+[2014.06.07-06.09.31:322][954]PIE: Info Play in editor start time for /Game/UEDPIE_0_Terrain_Trial -0.117
+[2014.06.07-06.09.31:411][955]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2014.06.07-06.09.49:004][227]LogBlueprintUserMessages: Un-named character can now fly !
+[2014.06.07-06.10.43:903][214]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D77C360
+[2014.06.07-06.10.56:852][ 33]LogTexture:Display: Building textures: Texture2D_66 (BGRA8)
+[2014.06.07-06.10.56:857][ 33]LogMaterial: Missing cached shader map for material TerrainMat, compiling.
+[2014.06.07-06.10.56:863][ 33]LogMaterial: Incomplete cached shader map for material TerrainMat, compiling.
+[2014.06.07-06.10.56:872][ 33]LogMaterial: 0.008568 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2014.06.07-06.10.56:876][ 33]LogTexture:Display: Building textures: Texture2D_67 (BGRA8)
+[2014.06.07-06.12.23:885][431]LogMaterial: 0.002470 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2014.06.07-06.12.24:741][485]LogTexture:Display: Building textures: Texture2D_68 (BGRA8)
+[2014.06.07-06.13.47:976][633]LogTexture:Display: Building textures: Texture2D_69 (BGRA8)
+[2014.06.07-06.14.25:978][ 61]LogMaterial: 0.002778 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2014.06.07-06.14.37:701][802]LogTexture:Display: Building textures: Texture2D_70 (BGRA8)
+[2014.06.07-06.15.22:611][708]Cmd: SELECT NONE
+[2014.06.07-06.15.23:956][790]LogTexture:Display: Building textures: Texture2D_31 (BGRA8)
+[2014.06.07-06.15.23:958][790]LogTexture:Display: Building textures: Texture2D_54 (BGRA8)
+[2014.06.07-06.15.23:961][790]LogTexture:Display: Building textures: Texture2D_70 (BGRA8)
+[2014.06.07-06.15.23:963][790]LogTexture:Display: Building textures: Texture2D_66 (BGRA8)
+[2014.06.07-06.15.23:965][790]LogTexture:Display: Building textures: Texture2D_67 (BGRA8)
+[2014.06.07-06.15.23:967][790]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2014.06.07-06.15.23:969][790]LogTexture:Display: Building textures: Texture2D_69 (BGRA8)
+[2014.06.07-06.15.23:971][790]LogTexture:Display: Building textures: Texture2D_59 (BGRA8)
+[2014.06.07-06.15.23:973][790]LogTexture:Display: Building textures: Texture2D_57 (BGRA8)
+[2014.06.07-06.15.23:975][790]LogTexture:Display: Building textures: Texture2D_68 (BGRA8)
+[2014.06.07-06.15.23:977][790]LogTexture:Display: Building textures: Texture2D_61 (BGRA8)
+[2014.06.07-06.15.23:980][790]LogTexture:Display: Building textures: Texture2D_58 (BGRA8)
+[2014.06.07-06.15.23:982][790]LogTexture:Display: Building textures: Texture2D_55 (BGRA8)
+[2014.06.07-06.15.23:984][790]LogTexture:Display: Building textures: Texture2D_43 (BGRA8)
+[2014.06.07-06.15.24:148][790]LogSavePackage: Save=201.418381ms
+[2014.06.07-06.15.24:148][790]LogSavePackage: Moving '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Saved/Terrain_Trial17A7870F4F02DA801ADDE8BC01E627CF.tmp' to '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Terrain_Trial.umap'
+[2014.06.07-06.15.26:192][920]Cmd: SELECT NONE
+[2014.06.07-06.15.28:177][ 42]Cmd: UpdateLandscapeHoleCollision
+[2014.06.07-06.15.35:852][547]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.07-06.15.35:852][547]PIE: New page: PIE session: Terrain_Trial (08/06/2014 2:15:35 am)
+[2014.06.07-06.15.35:870][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017788s)
+[2014.06.07-06.15.35:871][547]LogPlayLevel: PIE: World Init took: (0.000733s)
+[2014.06.07-06.15.35:871][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Terrain_Trial.Terrain_Trial to /Game/UEDPIE_0_Terrain_Trial.Terrain_Trial (0.018688s)
+[2014.06.07-06.15.35:872][547]LogWorld: Game class is 'JamGameMode_C'
+[2014.06.07-06.15.35:905][547]LogWorld: Bringing World /Game/UEDPIE_0_Terrain_Trial.Terrain_Trial up for play (max tick rate 0) at 2014.06.07-16.15.35
+[2014.06.07-06.15.35:906][547]LogWorld: Bringing up level for play took: 0.005238
+[2014.06.07-06.15.35:907][547]LogPlayerController: Spawned spectator SpectatorPawn_1 [server:1]
+[2014.06.07-06.15.35:907][547]LogGameMode: RestartPlayer 257
+[2014.06.07-06.15.35:908][547]LogPlayerController: ClientRestart_Implementation CharacterBP_C_1
+[2014.06.07-06.15.35:908][547]LogPlayerController: ServerAcknowledgePossession_Implementation CharacterBP_C_1
+[2014.06.07-06.15.35:912][547]PIE: Info Play in editor start time for /Game/UEDPIE_0_Terrain_Trial 0.469
+[2014.06.07-06.15.59:918][398]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000205ED440
+[2014.06.07-06.16.01:540][488]LogSavePackage: Save=167.098877ms
+[2014.06.07-06.16.01:540][488]LogSavePackage: Moving '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Saved/Terrain_Trial4FDCB3014A03BA92ADF93BB955C94860.tmp' to '../../../../../../Users/takamatsu/Documents/Unreal Projects/DigitalJamSession/Content/Terrain_Trial.umap'
+[2014.06.07-06.16.04:371][645]Cmd: QUIT_EDITOR
+[2014.06.07-06.16.04:491][645]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.06.07-06.16.04:493][645]LogExit: Preparing to exit.
+[2014.06.07-06.16.05:363][645]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.07-06.16.05:363][645]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.07-06.16.05:363][645]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.07-06.16.05:363][645]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.07-06.16.05:363][645]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.07-06.16.05:363][645]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.07-06.16.05:363][645]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.07-06.16.05:363][645]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.07-06.16.05:363][645]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.07-06.16.05:363][645]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.07-06.16.05:363][645]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.07-06.16.05:363][645]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.07-06.16.05:375][645]LogExit: Editor shut down
+[2014.06.07-06.16.05:375][645]LogExit: Transaction tracking system shut down
+[2014.06.07-06.16.05:377][645]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000209176A0
+[2014.06.07-06.16.05:383][645]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D717240
+[2014.06.07-06.16.05:383][645]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000190E4C20
+[2014.06.07-06.16.05:393][645]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020CE3920
+[2014.06.07-06.16.05:394][645]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001DF839C0
+[2014.06.07-06.16.05:417][645]LogExit: Object subsystem successfully closed.
+[2014.06.07-06.16.05:482][645]LogModuleManager: Shutting down and abandoning module MaterialEditor (165)
+[2014.06.07-06.16.05:482][645]LogModuleManager: Shutting down and abandoning module DesktopPlatform (164)
+[2014.06.07-06.16.05:482][645]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2014.06.07-06.16.05:482][645]LogModuleManager: Shutting down and abandoning module CrashTracker (162)
+[2014.06.07-06.16.05:482][645]LogModuleManager: Shutting down and abandoning module HTTP (161)
+[2014.06.07-06.16.05:482][645]LogModuleManager: Shutting down and abandoning module NewsFeed (160)
+[2014.06.07-06.16.05:482][645]LogModuleManager: Shutting down and abandoning module SceneOutliner (159)
+[2014.06.07-06.16.05:482][645]LogModuleManager: Shutting down and abandoning module EditorWidgets (158)
+[2014.06.07-06.16.05:482][645]LogModuleManager: Shutting down and abandoning module CollectionManager (157)
+[2014.06.07-06.16.05:482][645]LogModuleManager: Shutting down and abandoning module StatsViewer (156)
+[2014.06.07-06.16.05:482][645]LogModuleManager: Shutting down and abandoning module FoliageEdit (155)
+[2014.06.07-06.16.05:483][645]LogModuleManager: Shutting down and abandoning module LandscapeEditor (154)
+[2014.06.07-06.16.05:484][645]LogModuleManager: Shutting down and abandoning module MeshPaint (153)
+[2014.06.07-06.16.05:484][645]LogModuleManager: Shutting down and abandoning module ActorPickerMode (152)
+[2014.06.07-06.16.05:484][645]LogModuleManager: Shutting down and abandoning module GeometryMode (151)
+[2014.06.07-06.16.05:484][645]LogModuleManager: Shutting down and abandoning module TextureAlignMode (150)
+[2014.06.07-06.16.05:484][645]LogModuleManager: Shutting down and abandoning module BspMode (149)
+[2014.06.07-06.16.05:484][645]LogModuleManager: Shutting down and abandoning module PlacementMode (148)
+[2014.06.07-06.16.05:484][645]LogModuleManager: Shutting down and abandoning module AutomationWorker (147)
+[2014.06.07-06.16.05:484][645]LogModuleManager: Shutting down and abandoning module ViewportSnapping (146)
+[2014.06.07-06.16.05:484][645]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
+[2014.06.07-06.16.05:484][645]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
+[2014.06.07-06.16.05:484][645]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
+[2014.06.07-06.16.05:484][645]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
+[2014.06.07-06.16.05:484][645]LogModuleManager: Shutting down and abandoning module XmlParser (141)
+[2014.06.07-06.16.05:484][645]LogModuleManager: Shutting down and abandoning module Blutility (140)
+[2014.06.07-06.16.05:484][645]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
+[2014.06.07-06.16.05:484][645]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
+[2014.06.07-06.16.05:484][645]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (135)
+[2014.06.07-06.16.05:484][645]LogModuleManager: Shutting down and abandoning module InputBindingEditor (134)
+[2014.06.07-06.16.05:485][645]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (133)
+[2014.06.07-06.16.05:485][645]LogModuleManager: Shutting down and abandoning module SettingsEditor (132)
+[2014.06.07-06.16.05:485][645]LogModuleManager: Shutting down and abandoning module SessionLauncher (131)
+[2014.06.07-06.16.05:485][645]LogModuleManager: Shutting down and abandoning module SessionFrontend (130)
+[2014.06.07-06.16.05:485][645]LogModuleManager: Shutting down and abandoning module ProfilerClient (129)
+[2014.06.07-06.16.05:485][645]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (128)
+[2014.06.07-06.16.05:485][645]LogModuleManager: Shutting down and abandoning module DeviceManager (127)
+[2014.06.07-06.16.05:485][645]LogModuleManager: Shutting down and abandoning module AutomationController (126)
+[2014.06.07-06.16.05:485][645]LogModuleManager: Shutting down and abandoning module AutomationWindow (125)
+[2014.06.07-06.16.05:485][645]LogModuleManager: Shutting down and abandoning module Layers (124)
+[2014.06.07-06.16.05:485][645]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (123)
+[2014.06.07-06.16.05:485][645]LogModuleManager: Shutting down and abandoning module DetailCustomizations (122)
+[2014.06.07-06.16.05:485][645]LogModuleManager: Shutting down and abandoning module PackagesDialog (121)
+[2014.06.07-06.16.05:485][645]LogModuleManager: Shutting down and abandoning module PropertyEditor (120)
+[2014.06.07-06.16.05:485][645]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (119)
+[2014.06.07-06.16.05:485][645]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.06.07-06.16.05:544][645]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.06.07-06.16.05:544][645]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
+[2014.06.07-06.16.05:544][645]LogModuleManager: Shutting down and abandoning module ContentBrowser (115)
+[2014.06.07-06.16.05:544][645]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.06.07-06.16.05:544][645]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.06.07-06.16.05:544][645]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.06.07-06.16.05:544][645]LogModuleManager: Shutting down and abandoning module Sequencer (111)
+[2014.06.07-06.16.05:545][645]LogModuleManager: Shutting down and abandoning module AssetTools (110)
+[2014.06.07-06.16.05:545][645]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
+[2014.06.07-06.16.05:545][645]LogModuleManager: Shutting down and abandoning module OutputLog (108)
+[2014.06.07-06.16.05:545][645]LogModuleManager: Shutting down and abandoning module GammaUI (107)
+[2014.06.07-06.16.05:545][645]LogModuleManager: Shutting down and abandoning module Documentation (106)
+[2014.06.07-06.16.05:545][645]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
+[2014.06.07-06.16.05:545][645]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.06.07-06.16.05:545][645]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.06.07-06.16.05:545][645]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
+[2014.06.07-06.16.05:709][645]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
+[2014.06.07-06.16.05:709][645]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
+[2014.06.07-06.16.05:709][645]LogModuleManager: Shutting down and abandoning module Matinee (99)
+[2014.06.07-06.16.05:709][645]LogModuleManager: Shutting down and abandoning module Kismet (98)
+[2014.06.07-06.16.05:709][645]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
+[2014.06.07-06.16.05:709][645]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2014.06.07-06.16.05:710][645]LogModuleManager: Shutting down and abandoning module MainFrame (95)
+[2014.06.07-06.16.05:710][645]LogModuleManager: Shutting down and abandoning module SourceControl (94)
+[2014.06.07-06.16.05:710][645]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
+[2014.06.07-06.16.05:710][645]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2014.06.07-06.16.05:710][645]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2014.06.07-06.16.05:710][645]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2014.06.07-06.16.05:710][645]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
+[2014.06.07-06.16.05:710][645]LogModuleManager: Shutting down and abandoning module MessageLog (88)
+[2014.06.07-06.16.05:710][645]LogModuleManager: Shutting down and abandoning module Slate (87)
+[2014.06.07-06.16.05:710][645]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
+[2014.06.07-06.16.05:712][645]LogModuleManager: Shutting down and abandoning module SessionServices (85)
+[2014.06.07-06.16.05:712][645]LogModuleManager: Shutting down and abandoning module Messaging (84)
+[2014.06.07-06.16.05:712][645]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
+[2014.06.07-06.16.05:712][645]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
+[2014.06.07-06.16.05:712][645]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
+[2014.06.07-06.16.05:712][645]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2014.06.07-06.16.05:712][645]LogModuleManager: Shutting down and abandoning module Core (78)
+[2014.06.07-06.16.05:712][645]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
+[2014.06.07-06.16.05:712][645]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
+[2014.06.07-06.16.05:712][645]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
+[2014.06.07-06.16.05:712][645]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
+[2014.06.07-06.16.05:712][645]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
+[2014.06.07-06.16.05:771][645]LogDerivedDataCache: Shutdown
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module Settings (51)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module Renderer (43)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module Engine (42)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
+[2014.06.07-06.16.05:771][645]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
+[2014.06.07-06.16.05:772][645]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
+[2014.06.07-06.16.05:772][645]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
+[2014.06.07-06.16.05:772][645]LogModuleManager: Shutting down and abandoning module CableComponent (30)
+[2014.06.07-06.16.05:772][645]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2014.06.07-06.16.05:772][645]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
+[2014.06.07-06.16.05:872][645]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
+[2014.06.07-06.16.05:872][645]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
+[2014.06.07-06.16.05:872][645]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
+[2014.06.07-06.16.05:872][645]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.06.07-06.16.05:872][645]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.06.07-06.16.05:872][645]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.06.07-06.16.05:872][645]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.06.07-06.16.05:872][645]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.06.07-06.16.05:872][645]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.06.07-06.16.05:872][645]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.06.07-06.16.05:872][645]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.06.07-06.16.05:872][645]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.06.07-06.16.05:872][645]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.06.07-06.16.05:872][645]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.06.07-06.16.05:873][645]LogExit: Exiting.
+[2014.06.07-06.16.05:883][645]Log file closed, 06/07/14 16:16:05
